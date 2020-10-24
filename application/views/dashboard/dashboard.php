@@ -16,7 +16,7 @@
                         <div class="small text-dark">21 Oct 2020</div>
                     </div>
                     <div class="my-auto">
-                        <select class="form-control form-control-sm border-0" id="exampleFormControlSelect1">
+                        <select class="form-control border-0" id="exampleFormControlSelect1">
                           <option>Today</option>
                           <option>Week</option>
                           <option>Month</option>
@@ -26,6 +26,26 @@
                 </div>
                 <div class="card-body px-1 p-lg-4">
                     <canvas id="myChart" width="400" height="180"></canvas>
+                </div>
+                <div class="card-footer bg-white">
+                    <div class="row">
+                        <div class="col">
+                            <div class="small text-truncate text-black-50">Avg. Performance</div>
+                            <div class="text-success" style="font-size: 1.4rem;"><i class="material-icons mr-2">check_circle</i>80%</div>
+                        </div>
+                        <div class="col">
+                            <div class="small text-truncate text-black-50">Avg. Progress</div>
+                            <div class="text-success" style="font-size: 1.4rem;"><i class="material-icons mr-2">check_circle</i>95%</div>
+                        </div>
+                        <div class="col mb-lg-0 mb-3">
+                            <div class="small text-black-50">Issue</div>
+                            <div class="text-danger" style="font-size: 1.4rem;"><i class="material-icons mr-2">warning</i>2</div>
+                        </div>
+                        <div class="col-10 col-lg-4">
+                            <div class="small text-black-50">Production (Monthly)</div>
+                            <div style="font-size: 1.4rem;"><span class="text-black-50">400000</span> / 1200000</div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
@@ -37,7 +57,7 @@
                         <div class="small text-dark">21 Oct 2020</div>
                     </div>
                     <div class="my-auto">
-                        <select class="form-control form-control-sm border-0" id="exampleFormControlSelect1">
+                        <select class="form-control border-0" id="exampleFormControlSelect1">
                           <option>Today</option>
                           <option>Week</option>
                           <option>Month</option>
@@ -45,8 +65,8 @@
                         </select>
                     </div>
                 </div>
-                <div class="card-body px-1 px-lg-4 py-lg-3">
-                    <table id="example" class="display table table-bordered" cellspacing="0" width="100%">
+                <div class="card-body px-1 p-lg-3">
+                    <table id="example" class="display table" cellspacing="0" width="100%">
                         <thead>
                             <tr>
                                 <th>No</th>
@@ -58,28 +78,28 @@
                         <tbody>
                             <tr>
                                 <td>1</td>
-                                <td>Edinburgh</td>
-                                <td>61</td>
+                                <td>Wilayah 1</td>
+                                <td>80000</td>
                             </tr>
                             <tr>
                                 <td>2</td>
-                                <td>Singapore</td>
-                                <td>29</td>
+                                <td>Wilayah 2</td>
+                                <td>150000</td>
                             </tr>
                             <tr>
                                 <td>3</td>
-                                <td>New York</td>
-                                <td>27</td>
+                                <td>Wilayah 3</td>
+                                <td>180000</td>
                             </tr>
                             <tr>
                                 <td>4</td>
-                                <td>New York</td>
-                                <td>27</td>
+                                <td>Wilayah 4</td>
+                                <td>300000</td>
                             </tr>
                             <tr>
                                 <td>5</td>
-                                <td>New York</td>
-                                <td>27</td>
+                                <td>Wilayah 5</td>
+                                <td>250000</td>
                             </tr>
                         </tbody>
                     </table>
@@ -134,22 +154,19 @@
 
     // Datatables
     $(document).ready(function() {
-      var table = $('#example').DataTable({ 
+        var table = $('#example').DataTable({ 
+            searching: false, 
+            paging: false, 
+            info: false,
             select: false,
             "columnDefs": [{
                 className: "Name", 
                 "targets":[0],
                 "visible": false,
-                "searchable":false
+                "searchable":false,
+                "searching": false
             }]
         });//End of create main table
-
-      
-      $('#example tbody').on( 'click', 'tr', function () {
-       
-        alert(table.row( this ).data()[0]);
-
-    } );
     });
 
 </script>

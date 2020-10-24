@@ -22,13 +22,13 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 	<!-- Css -->
 	<link rel="stylesheet" type="text/css" href="<?=base_url();?>assets/bootstrap/css/bootstrap.css">
 	<link rel="stylesheet" type="text/css" href="<?=base_url();?>assets/materialicons/material-icons.css">
+    <link rel="stylesheet" type="text/css" href="<?=base_url();?>assets/css/modification.css">
 
 	<!-- Js -->
-	<script src="<?=base_url();?>assets/bootstrap/js/bootstrap.js"></script>
-	<script src="<?=base_url();?>assets/jquery/jquery.js"></script>
+    <script src="<?=base_url();?>assets/jquery/jquery.js"></script>
+    <script src="<?=base_url();?>assets/bootstrap/js/popper.js"></script>
+    <script src="<?=base_url();?>assets/bootstrap/js/bootstrap.js"></script>
 
-	
-	</style>
 </head>
 <body>
 	<div class="container-fluid">
@@ -55,7 +55,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 
                             <div class="justify-content-between d-flex">
                                 <a href="" class="text-muted ml-1 my-auto" style="font-size: 15px;" title="Forgot Password">Forgot ?</a>
-                                <a href="<?=base_url();?>" class="btn btn-danger">Sign in</a>
+                                <a href="<?=base_url();?>dashboard" class="btn btn-danger">Sign in</a>
                             </div>
                             
                             <div class="mt-3 mb-4">

@@ -47,12 +47,14 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                         <span class="badge badge-danger" style="font-size: 8px; position: absolute; top: 8px; right: 5px;" id="count_lonceng">9+</span>
                     </button>
                     <div class="dropdown-menu dropdown-menu-right border-0 py-0">
-                        <div class="card" style="width: 170px;">
+                        <div class="card" style="width: 200px;">
                             <div class="card-header bg-transparent py-1">
                                 <small>Notification</small>
                             </div>
-                            <div class="card-body bg-transparent py-2">
-                                
+                            <div class="card-body bg-transparent p-0">
+                                <div class="border rounded p-2">
+                                    <div></div>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -64,7 +66,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                     <div class="dropdown-menu dropdown-menu-right border-0 py-0">
                         <div class="card" style="width: 170px;">
                             <div class="card-body bg-transparent py-2">
-                                <a href="" class="text-muted d-block py-1" style="font-size: 16px;"><i class="material-icons text-muted mr-2" style="font-size: 16px;">exit_to_app</i>Signout</a>
+                                <a href="<?=base_url();?>" class="text-muted d-block py-1" style="font-size: 16px;"><i class="material-icons text-muted mr-2" style="font-size: 16px;">exit_to_app</i>Signout</a>
                             </div>
                         </div>
                     </div>

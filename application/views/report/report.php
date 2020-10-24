@@ -14,7 +14,7 @@
             <div class="card shadow-sm mb-3">
                 <div class="card-header bg-white py-2">
                 	<div class="row">
-                		<div class="col-12 col-lg-2">
+                		<div class="col-12 col-lg-2 mb-2">
 	                        <select class="form-control" id="exampleFormControlSelect1">
 	                          <option>All Location</option>
 	                          <option>Wilayah 1</option>
@@ -24,14 +24,14 @@
 	                          <option>Wilayah 5</option>
 	                        </select>
 	                    </div>
-	                    <div class="col-12 col-lg-4">
+	                    <div class="col-12 col-lg-4 mb-2">
 	                    	<div class="rounded text-muted" id="reportrange" style="background: #fff; cursor: pointer; padding: 5px 10px; border: 1px solid #ccc; width: 100%">
 							    <i class="material-icons mr-2">date_range</i>
 							    <span class="text-dark"></span></i>
 							</div>
 	                    </div>
-	                    <div class="col-12 col-lg-2 ml-auto text-right">
-		                    <div class="btn-group" role="group" aria-label="Button group with nested dropdown">
+	                    <div class="col-12 col-lg-2 mb-2 ml-auto text-right">
+		                    <div class="btn-group w-100" role="group" aria-label="Button group with nested dropdown">
 							  <button type="button" class="btn btn-outline-success"><i class="material-icons mr-lg-2">get_app</i>Export</button>
 
 							  <div class="btn-group" role="group">

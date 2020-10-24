@@ -44,17 +44,50 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                 <div class="btn-group">
                     <button class="btn btn-white rounded d-flex my-auto px-2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                         <i class="material-icons text-muted" style="font-size: 28px; margin-top: 1px; margin-bottom: -1px;">notifications</i>
-                        <span class="badge badge-danger" style="font-size: 8px; position: absolute; top: 8px; right: 5px;" id="count_lonceng">9+</span>
+                        <span class="badge badge-danger" style="font-size: 8px; position: absolute; top: 8px; right: 5px;">2</span>
                     </button>
                     <div class="dropdown-menu dropdown-menu-right border-0 py-0">
-                        <div class="card" style="width: 200px;">
-                            <div class="card-header bg-transparent py-1">
-                                <small>Notification</small>
+                        <div class="card" style="width: 280px;">
+                            <div class="card-header justify-content-between d-flex text-muted py-1 px-2">
+                                <div class="small my-auto">Notification</div>
+                                <div class="cur-pointer"><i class="material-icons">done_all</i></div>
                             </div>
                             <div class="card-body bg-transparent p-0">
-                                <div class="border rounded p-2">
-                                    <div></div>
-                                </div>
+                                <a href="" class="border rounded text-dark d-flex p-2 m-1">
+                                    <div class="mr-3 my-auto" style="position: relative;"><i class="material-icons text-muted">assignment</i><span class="text-danger" style="font-size: 40px; position: absolute; top: -30px; right: -4px; -webkit-text-stroke: 2px white;">•</span></div>
+                                    <div>
+                                        <div style="font-size: 13px;">Report From Wilayah 1 Updated</div>
+                                        <div class="text-muted" style="font-size: 10px;">14m ago</div>
+                                    </div>
+                                </a>
+                                <a href="" class="border rounded text-dark d-flex p-2 m-1">
+                                    <div class="mr-3 my-auto" style="position: relative;"><i class="material-icons text-muted">assignment</i><span class="text-danger" style="font-size: 40px; position: absolute; top: -30px; right: -4px; -webkit-text-stroke: 2px white;">•</span></div>
+                                    <div>
+                                        <div style="font-size: 13px;">Report From Wilayah 2 Updated</div>
+                                        <div class="text-muted" style="font-size: 10px;">2h ago</div>
+                                    </div>
+                                </a>
+                                <a href="" class="border rounded text-muted d-flex p-2 m-1">
+                                    <div class="mr-3 my-auto"><i class="material-icons text-muted">assignment</i></div>
+                                    <div>
+                                        <div style="font-size: 13px;">Report From Wilayah 3 Updated</div>
+                                        <div class="text-muted" style="font-size: 10px;">1d ago</div>
+                                    </div>
+                                </a>
+                                <a href="" class="border rounded text-muted d-flex p-2 m-1">
+                                    <div class="mr-3 my-auto"><i class="material-icons text-muted">assignment</i></div>
+                                    <div>
+                                        <div style="font-size: 13px;">Report From Wilayah 4 Updated</div>
+                                        <div class="text-muted" style="font-size: 10px;">1d ago</div>
+                                    </div>
+                                </a>
+                                <a href="" class="border rounded text-muted d-flex p-2 m-1">
+                                    <div class="mr-3 my-auto"><i class="material-icons text-muted">assignment</i></div>
+                                    <div>
+                                        <div style="font-size: 13px;">Report From Wilayah 1 Updated</div>
+                                        <div class="text-muted" style="font-size: 10px;">1d ago</div>
+                                    </div>
+                                </a>
                             </div>
                         </div>
                     </div>

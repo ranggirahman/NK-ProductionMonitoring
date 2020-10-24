@@ -15,3 +15,9 @@ footer {
 a {
     text-decoration: none !important; 
 }
+
+/* cursor */
+
+.cur-pointer {
+	cursor: pointer;
+}

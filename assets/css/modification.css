@@ -1,0 +1,17 @@
+/* footer on bottom */
+html {
+    position: relative;
+    min-height: 100%;
+}
+footer {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    overflow:hidden;
+}
+
+/* a href remove decoration (underline etc)*/
+a {
+    text-decoration: none !important; 
+}

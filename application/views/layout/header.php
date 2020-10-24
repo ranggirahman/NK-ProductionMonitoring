@@ -36,21 +36,21 @@ defined('BASEPATH') OR exit('No direct script access allowed');
             <div class="d-flex">
                 <a href="" class="bg-transparent text-white d-flex mr-lg-4" role="button"><img class="my-auto mr-2" style="max-height: 28px;" src="<?= base_url(); ?>assets/img/logo-color.png"></a>
                 <div class="d-flex" style="margin-bottom: -14px;">
-                    <a href="<?=base_url();?>dashboard" class="text-muted d-flex <?php if($title == 'Dashboard'){ echo 'border-bottom';}else{ echo 'border-bottom border-white'; } ?> pb-2 px-3 mr-2 mr-lg-3" style="border-width: thick !important;"><i class="material-icons my-auto mr-lg-2" style="opacity: 0.4;">donut_small</i><div class="font-weight-light d-none d-sm-block" style="font-size: 20px;">Dashboard</div></a>
-                    <a href="<?=base_url();?>report" class="text-muted d-flex <?php if($title == 'Report'){ echo 'border-bottom';}else{ echo 'border-bottom border-white'; } ?> pb-2 px-3 px-lg-3" style="border-width: thick !important;"><i class="material-icons my-auto mr-lg-2" style="opacity: 0.4;">assignment</i><div class="font-weight-light d-none d-sm-block" style="font-size: 20px;">Report</div></a>
+                    <a href="<?=base_url();?>dashboard" class="text-muted d-flex <?php if($title == 'Dashboard'){ echo 'border-bottom';}else{ echo 'border-bottom border-white'; } ?> pb-2 px-3 mr-2 mr-lg-3" style="border-width: thick !important;"><i class="material-icons my-auto mr-lg-2" style="opacity: 0.5;">donut_small</i><div class="font-weight-light d-none d-sm-block" style="font-size: 20px;">Dashboard</div></a>
+                    <a href="<?=base_url();?>report" class="text-muted d-flex <?php if($title == 'Report'){ echo 'border-bottom';}else{ echo 'border-bottom border-white'; } ?> pb-2 px-3 px-lg-3" style="border-width: thick !important;"><i class="material-icons my-auto mr-lg-2" style="opacity: 0.5;">assignment</i><div class="font-weight-light d-none d-sm-block" style="font-size: 20px;">Report</div></a>
                 </div>
             </div>
             <div>
                 <div class="btn-group">
                     <button class="btn btn-white rounded d-flex my-auto px-2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                        <i class="material-icons text-muted" style="font-size: 28px; margin-top: 1px; margin-bottom: -1px;">notifications</i>
+                        <i class="material-icons text-muted" style="font-size: 28px; margin-top: 1px; margin-bottom: -1px; opacity: 0.5">notifications</i>
                         <span class="badge badge-danger" style="font-size: 8px; position: absolute; top: 8px; right: 5px;">2</span>
                     </button>
                     <div class="dropdown-menu dropdown-menu-right border-0 py-0">
                         <div class="card" style="width: 280px;">
                             <div class="card-header justify-content-between d-flex text-muted py-1 px-2">
                                 <div class="small my-auto">Notification</div>
-                                <div class="cur-pointer"><i class="material-icons">done_all</i></div>
+                                <div class="cur-pointer"><i class="material-icons">clear_all</i></div>
                             </div>
                             <div class="card-body bg-transparent p-0">
                                 <a href="" class="border rounded text-dark d-flex p-2 m-1">

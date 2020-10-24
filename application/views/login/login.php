@@ -55,7 +55,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 
                             <div class="justify-content-between d-flex">
                                 <a href="" class="text-muted ml-1 my-auto" style="font-size: 15px;" title="Forgot Password">Forgot ?</a>
-                                <a href="<?=base_url();?>dashboard" class="btn btn-danger">Sign in</a>
+                                <a href="<?=base_url();?>dashboard" class="btn btn-nk">Sign in</a>
                             </div>
                             
                             <div class="mt-3 mb-4">
@@ -63,7 +63,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                                 <hr>
                             </div>
 
-                            <a href="" class="btn btn-outline-danger w-100"><span class="font-weight-light">Continue with</span> <span class="font-weight-bold">SSO</span></a>
+                            <a href="" class="btn btn-outline-nk w-100"><span class="font-weight-light">Continue with</span> <span class="font-weight-bold">SSO</span></a>
                     	</div>
                 	</div>
 	                <div class="card-footer bg-transparent border-0">

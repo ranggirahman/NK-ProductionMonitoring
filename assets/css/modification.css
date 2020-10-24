@@ -17,7 +17,37 @@ a {
 }
 
 /* cursor */
-
 .cur-pointer {
 	cursor: pointer;
+}
+
+/* nindya color */
+.active-nk {
+	color: #E85D25 !important;
+}
+.active-nk:hover {
+	color: #E85D25 !important;
+}
+
+.border-nk {
+	border-color: #E85D25 !important;
+}
+
+.btn-nk {
+	background-color: #E85D25 !important;
+	color: white !important;
+}
+.btn-nk:hover {
+	background-color: #C42228 !important;
+	color: white !important;
+}
+
+.btn-outline-nk {
+	background-color: #FFFFFF !important;
+	border-color: #E85D25 !important;
+	color: #E85D25 !important;
+}
+.btn-outline-nk:hover {
+	background-color: #E85D25 !important;
+	color: white !important;
 }

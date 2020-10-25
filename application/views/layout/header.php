@@ -3,6 +3,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 ?><!DOCTYPE html>
 <html lang="en">
 <head>
+    <!-- Meta -->
 	<meta charset="utf-8">
 	<meta charset="utf-8">
     <meta name="theme-color" content=""/>
@@ -19,12 +20,12 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 	<!-- Icon -->
 	<link href="<?=base_url();?>assets/img/favicon.ico" rel="icon" type="image/x-icon" />
 
-	<!-- Css -->
+	<!-- Css (Global) -->
 	<link rel="stylesheet" type="text/css" href="<?=base_url();?>assets/bootstrap/css/bootstrap.css">
 	<link rel="stylesheet" type="text/css" href="<?=base_url();?>assets/materialicons/material-icons.css">
     <link rel="stylesheet" type="text/css" href="<?=base_url();?>assets/css/modification.css">
 
-	<!-- Js -->
+	<!-- Js (Global) -->
     <script src="<?=base_url();?>assets/jquery/jquery.js"></script>
     <script src="<?=base_url();?>assets/bootstrap/js/popper.js"></script>
     <script src="<?=base_url();?>assets/bootstrap/js/bootstrap.js"></script>

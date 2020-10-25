@@ -1,5 +1,13 @@
 <!-- Css (private use only) -->
 <link rel="stylesheet" type="text/css" href="<?=base_url();?>assets/datatables/dataTables.bootstrap4.min.css">
+<style type="text/css">
+    table.dataTable thead th {
+        border-top: none;
+    }
+    table.dataTable {
+        margin: 0px !important;
+    }
+</style>
 
 <!-- Js (private use only) -->
 <script src="<?=base_url();?>assets/chartjs/chart.js"></script>
@@ -59,10 +67,10 @@
                 <div class="card-header justify-content-between d-flex bg-white py-2">
                     <div class="font-weight-light my-auto">
                         <div style="font-size:18px;" class="text-black-50">Production Summary</div>
-                        <div class="small text-dark">24 Oct 2020</div>
+                        <div class="small text-dark">25 Oct 2020</div>
                     </div>
                     <div class="my-auto">
-                        <select class="form-control border-0" id="exampleFormControlSelect1">
+                        <select class="form-control border-0" id="">
                           <option>Today</option>
                           <option>Week</option>
                           <option>Month</option>
@@ -70,7 +78,7 @@
                         </select>
                     </div>
                 </div>
-                <div class="card-body px-1 p-lg-4">
+                <div class="card-body px-2 p-lg-3">
                     <canvas id="cProductionS" width="400" height="180"></canvas>
                 </div>
             </div>
@@ -80,37 +88,30 @@
                 <div class="card-header justify-content-between d-flex bg-white py-2">
                     <div class="font-weight-light my-auto">
                         <div style="font-size:18px;" class="text-black-50">Performance</div>
-                        <div class="small text-dark">24 Oct 2020</div>
+                        <div class="small text-dark">19 - 25 Oct 2020</div>
                     </div>
                     <div class="my-auto">
-                        <select class="form-control border-0" id="exampleFormControlSelect1">
-                          <option>Today</option>
+                        <select class="form-control border-0" id="">
                           <option>Week</option>
                           <option>Month</option>
                           <option>Year</option>
                         </select>
                     </div>
                 </div>
-                <div class="card-body px-1 p-lg-4">
-                    <canvas id="cPerformance" width="400" height="86"></canvas>
+                <div class="card-body pt-3 pb-2 p-lg-3 py-lg-0">
+                    <canvas id="cPerformance" width="" height="145"></canvas>
                 </div>
             </div>
             <div class="card shadow-sm mb-3">
                 <div class="card-header justify-content-between d-flex bg-white py-2">
                     <div class="font-weight-light my-auto">
                         <div style="font-size:18px;" class="text-black-50">Production Log</div>
-                        <div class="small text-dark">24 Oct 2020</div>
                     </div>
                     <div class="my-auto">
-                        <select class="form-control border-0" id="exampleFormControlSelect1">
-                          <option>Today</option>
-                          <option>Week</option>
-                          <option>Month</option>
-                          <option>Year</option>
-                        </select>
+                        <div class="small text-dark"><i class="material-icons text-muted mr-2" style="font-size: 16px;">sync</i>22 Oct 2020</div>
                     </div>
                 </div>
-                <div class="card-body px-1 pt-lg-2 pb-lg-0 px-lg-3">
+                <div class="card-body px-1 py-0 px-lg-3">
                     <table id="example" class="display table" cellspacing="0" width="100%">
                         <thead>
                             <tr>
@@ -342,16 +343,14 @@
                     'rgba(54, 162, 235, 1)',
                     'rgba(255, 206, 86, 1)',
                     'rgba(75, 192, 192, 1)',
-                    'rgba(153, 102, 255, 1)',
-                    'rgba(255, 159, 64, 1)'
+                    'rgba(153, 102, 255, 1)'
                 ],
                 borderColor: [
                     'rgba(255, 99, 132, 1)',
                     'rgba(54, 162, 235, 1)',
                     'rgba(255, 206, 86, 1)',
                     'rgba(75, 192, 192, 1)',
-                    'rgba(153, 102, 255, 1)',
-                    'rgba(255, 159, 64, 1)'
+                    'rgba(153, 102, 255, 1)'
                 ],
                 borderWidth: 1
             }]
@@ -371,6 +370,77 @@
                     barPercentage: 0.4
                 }]
             }
+        }
+    });
+
+    // Chartjs performance
+    var dRegion1 = {
+        label: "Region 1",
+        data: [60000, 100000, 100000, 100000, 100000, 100000, 100000],
+        lineTension: 0,
+        fill: 'false',
+        borderColor: 'rgba(255, 99, 132, 1)',
+        backgroundColor: 'rgba(255, 99, 132, 1)'
+    };
+
+    var dRegion2 = {
+        label: "Region 2",
+        data: [120000, 120000, 150000, 150000, 150000, 150000, 150000],
+        lineTension: 0,
+        fill: 'false',
+        borderColor: 'rgba(54, 162, 235, 1)',
+        backgroundColor: 'rgba(54, 162, 235, 1)'
+    };
+
+    var dRegion3 = {
+        label: "Region 3",
+        data: [140000, 140000, 140000, 200000, 200000, 200000, 200000],
+        lineTension: 0,
+        fill: 'false',
+        borderColor: 'rgba(75, 192, 192, 1)',
+        backgroundColor: 'rgba(75, 192, 192, 1)'
+    };
+
+    var dRegion4 = {
+        label: "Region 4",
+        data: [280000, 300000, 300000, 300000, 300000, 300000, 300000],
+        lineTension: 0,
+        fill: 'false',
+        borderColor: 'rgba(255, 99, 132, 1)',
+        backgroundColor: 'rgba(255, 99, 132, 1)'
+    };
+
+    var dRegion5 = {
+        label: "Region 5",
+        data: [200000, 200000, 200000, 300000, 300000, 300000, 300000],
+        lineTension: 0,
+        fill: 'false',
+        borderColor: 'rgba(153, 102, 255, 1)',
+        backgroundColor: 'rgba(153, 102, 255, 1)'
+    };
+    
+    var cPerf = document.getElementById('cPerformance');
+    var dsPerf = {
+      labels: ["Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun"],
+      datasets: [ dRegion1, dRegion2, dRegion3, dRegion4, dRegion5]
+    };
+    var stackedLine = new Chart( cPerf, {
+        type: 'line',
+        data: dsPerf,
+        options: {
+            scales: {
+                yAxes: [{
+                    stacked: false
+                }]
+            },
+            legend: {
+                display: true,
+                position: 'bottom',
+                labels: {
+                  boxWidth: 12,
+                }
+            },
+            maintainAspectRatio: false
         }
     });
 

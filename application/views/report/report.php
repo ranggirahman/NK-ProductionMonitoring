@@ -27,7 +27,7 @@
         			<div class="justify-content-between d-flex">
         				<div>
         					<div>Production Target</div>
-        					<div class="small text-muted">Production on progress until 23 Dec 2020</div>
+        					<div class="small text-muted">On progress until 23 Dec 2020</div>
         				</div>
         				<div><button class="btn btn-primary" data-toggle="modal" data-target="#mProductionT"><i class="material-icons">post_add</i></button></div>
         			</div>
@@ -97,13 +97,13 @@
                                 <td>1</td>
                                 <td>22 Oct 2020</td>
                                 <td>Region 3</td>
-                                <td>180000</td>
+                                <td>200000</td>
                             </tr>
                             <tr>
                                 <td>2</td>
                                 <td>22 Oct 2020</td>
                                 <td>Region 5</td>
-                                <td>250000</td>
+                                <td>300000</td>
                             </tr>
                             <tr>
                                 <td>3</td>
@@ -121,7 +121,7 @@
                                 <td>5</td>
                                 <td>20 Oct 2020</td>
                                 <td>Region 1</td>
-                                <td>80000</td>
+                                <td>100000</td>
                             </tr>
                             <tr>
                                 <td>6</td>
@@ -137,19 +137,19 @@
                             </tr>
                             <tr>
                                 <td>8</td>
-                                <td>18 Oct 2020</td>
+                                <td>19 Oct 2020</td>
                                 <td>Region 2</td>
                                 <td>120000</td>
                             </tr>
                             <tr>
                                 <td>9</td>
-                                <td>18 Oct 2020</td>
+                                <td>19 Oct 2020</td>
                                 <td>Region 4</td>
                                 <td>280000</td>
                             </tr>
                             <tr>
                                 <td>10</td>
-                                <td>18 Oct 2020</td>
+                                <td>19 Oct 2020</td>
                                 <td>Region 1</td>
                                 <td>60000</td>
                             </tr>

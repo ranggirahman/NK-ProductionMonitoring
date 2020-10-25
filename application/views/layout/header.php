@@ -69,23 +69,23 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                                     </div>
                                 </a>
                                 <a href="" class="border rounded text-muted d-flex p-2 m-1">
-                                    <div class="mr-3 my-auto"><i class="material-icons text-muted">assignment</i></div>
+                                    <div class="mr-3 my-auto"><i class="material-icons text-muted" style="opacity: 0.6;">assignment</i></div>
                                     <div>
-                                        <div style="font-size: 13px;">Report 24 Sep 2020 Updated</div>
+                                        <div style="font-size: 13px;">Report 24 Sep 2020 Approved</div>
                                         <div class="text-muted" style="font-size: 10px;">20d ago</div>
                                     </div>
                                 </a>
                                 <a href="" class="border rounded text-muted d-flex p-2 m-1">
-                                    <div class="mr-3 my-auto"><i class="material-icons text-muted">assignment</i></div>
+                                    <div class="mr-3 my-auto"><i class="material-icons text-muted" style="opacity: 0.6;">assignment</i></div>
                                     <div>
-                                        <div style="font-size: 13px;">Report 1 Sep 2020 Updated</div>
+                                        <div style="font-size: 13px;">Report 1 Sep 2020 Approved</div>
                                         <div class="text-muted" style="font-size: 10px;">30d ago</div>
                                     </div>
                                 </a>
                                 <a href="" class="border rounded text-muted d-flex p-2 m-1">
-                                    <div class="mr-3 my-auto"><i class="material-icons text-muted">assignment</i></div>
+                                    <div class="mr-3 my-auto"><i class="material-icons text-muted" style="opacity: 0.6;">assignment</i></div>
                                     <div>
-                                        <div style="font-size: 13px;">Report 19 Oct 2019 Updated</div>
+                                        <div style="font-size: 13px;">Report 19 Oct 2019 Approved</div>
                                         <div class="text-muted" style="font-size: 10px;">1y ago</div>
                                     </div>
                                 </a>

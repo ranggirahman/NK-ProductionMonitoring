@@ -76,7 +76,7 @@
                     </div>
                 </div>
                 <div class="card-body px-2 p-lg-3">
-                    <canvas id="cProductionS" width="400" height="180"></canvas>
+                    <canvas id="cProductionS" width="400" height="191"></canvas>
                 </div>
             </div>
         </div>

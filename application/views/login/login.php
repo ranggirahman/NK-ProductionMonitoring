@@ -17,7 +17,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 	<title><?php echo isset($title)?$title:'Nindya Karya';?></title>
 
 	<!-- Icon -->
-	<link href="<?=base_url();?>assets/img/favicon.png" rel="icon" type="image/x-icon" />
+	<link href="<?=base_url();?>assets/img/favicon.ico" rel="icon" type="image/x-icon" />
 
 	<!-- Css -->
 	<link rel="stylesheet" type="text/css" href="<?=base_url();?>assets/bootstrap/css/bootstrap.css">

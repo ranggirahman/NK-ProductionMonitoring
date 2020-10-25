@@ -17,7 +17,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 	<title><?php echo isset($title)?$title:'Nindya Karya';?></title>
 
 	<!-- Icon -->
-	<link href="<?=base_url();?>assets/img/favicon.png" rel="icon" type="image/x-icon" />
+	<link href="<?=base_url();?>assets/img/favicon.ico" rel="icon" type="image/x-icon" />
 
 	<!-- Css -->
 	<link rel="stylesheet" type="text/css" href="<?=base_url();?>assets/bootstrap/css/bootstrap.css">
@@ -37,7 +37,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                 <a href="" class="bg-transparent text-white d-flex mr-lg-4" role="button"><img class="my-auto mr-2" style="max-height: 28px;" src="<?= base_url(); ?>assets/img/logo-color.png"></a>
                 <div class="d-flex" style="margin-bottom: -14px;">
                     <a href="<?=base_url();?>dashboard" class="d-flex <?php if($title == 'Dashboard'){ echo 'active-nk border-bottom border-nk';}else{ echo 'text-muted border-bottom border-white'; } ?> pb-2 px-3 mr-2 mr-lg-3" style="border-width: thick !important;"><i class="material-icons my-auto mr-lg-2" style="opacity: 0.5;">donut_small</i><div class="font-weight-light d-none d-sm-block" style="font-size: 20px;">Dashboard</div></a>
-                    <a href="<?=base_url();?>report" class="d-flex <?php if($title == 'Report'){ echo 'active-nk border-bottom border-nk';}else{ echo 'text-muted border-bottom border-white'; } ?> pb-2 px-3 px-lg-3" style="border-width: thick !important;"><i class="material-icons my-auto mr-lg-2" style="opacity: 0.5;">assignment</i><div class="font-weight-light d-none d-sm-block" style="font-size: 20px;">Report</div></a>
+                    <a href="<?=base_url();?>report" class="d-flex <?php if($title == 'Report'){ echo 'active-nk border-bottom border-nk';}else{ echo 'text-muted border-bottom border-white'; } ?> pb-2 px-3 px-lg-4" style="border-width: thick !important;"><i class="material-icons my-auto mr-lg-2" style="opacity: 0.5;">assignment</i><div class="font-weight-light d-none d-sm-block" style="font-size: 20px;">Report</div></a>
                 </div>
             </div>
             <div>

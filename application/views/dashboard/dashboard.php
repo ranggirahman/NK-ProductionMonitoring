@@ -12,8 +12,54 @@
             <div class="card shadow-sm mb-3">
                 <div class="card-header justify-content-between d-flex bg-white py-2">
                     <div class="font-weight-light my-auto">
-                        <div style="font-size:18px;" class="text-black-50">Summary</div>
-                        <div class="small text-dark">21 Oct 2020</div>
+                        <div style="font-size:18px;" class="text-black-50">Progress</div>
+                    </div>
+                </div>
+                <div class="card-body p-0">
+                    <div class="justify-content-between d-flex p-3 px-lg-5" style="overflow-y: auto;">
+                        <div class="pr-4">
+                            <div style="position: relative;" class="">
+                                <canvas id="cProgress1" width="100" height="100"></canvas>
+                                <div class="font-weight-light h5" style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%);">83<span class="text-muted" style="opacity: 0.8; font-size: 0.7rem">%</span></div>
+                            </div>
+                            <div class="small text-center text-muted mt-2">Region 1</div>
+                        </div>
+                        <div class="pr-4">
+                            <div style="position: relative;" class="">
+                                <canvas id="cProgress2" width="100" height="100"></canvas>
+                                <div class="font-weight-light h5" style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%);">77<span class="text-muted" style="opacity: 0.8; font-size: 0.7rem">%</span></div>
+                            </div>
+                            <div class="small text-center text-muted mt-2">Region 2</div>
+                        </div>
+                        <div class="pr-4">
+                            <div style="position: relative;" class="">
+                                <canvas id="cProgress3" width="100" height="100"></canvas>
+                                <div class="font-weight-light h5" style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%);">100<span class="text-muted" style="opacity: 0.8; font-size: 0.7rem">%</span></div>
+                            </div>
+                            <div class="small text-center text-muted mt-2">Region 3</div>
+                        </div>
+                        <div class="pr-4">
+                            <div style="position: relative;" class="">
+                                <canvas id="cProgress4" width="100" height="100"></canvas>
+                                <div class="font-weight-light h5" style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%);">93<span class="text-muted" style="opacity: 0.8; font-size: 0.7rem">%</span></div>
+                            </div>
+                            <div class="small text-center text-muted mt-2">Region 4</div>
+                        </div>
+                        <div>
+                            <div style="position: relative;" class="">
+                                <canvas id="cProgress5" width="100" height="100"></canvas>
+                                <div class="font-weight-light h5" style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%);">88<span class="text-muted" style="opacity: 0.8; font-size: 0.7rem">%</span></div>
+                            </div>
+                            <div class="small text-center text-muted mt-2">Region 5</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="card shadow-sm mb-3">
+                <div class="card-header justify-content-between d-flex bg-white py-2">
+                    <div class="font-weight-light my-auto">
+                        <div style="font-size:18px;" class="text-black-50">Production Summary</div>
+                        <div class="small text-dark">24 Oct 2020</div>
                     </div>
                     <div class="my-auto">
                         <select class="form-control border-0" id="exampleFormControlSelect1">
@@ -25,23 +71,7 @@
                     </div>
                 </div>
                 <div class="card-body px-1 p-lg-4">
-                    <canvas id="myChart" width="400" height="180"></canvas>
-                </div>
-                <div class="card-footer bg-white">
-                    <div class="row">
-                        <div class="col">
-                            <div class="small text-truncate text-black-50">Avg. Performance</div>
-                            <div class="text-success" style="font-size: 1.4rem;"><i class="material-icons mr-2">check_circle</i>80%</div>
-                        </div>
-                        <div class="col">
-                            <div class="small text-truncate text-black-50">Avg. Progress</div>
-                            <div class="text-success" style="font-size: 1.4rem;"><i class="material-icons mr-2">check_circle</i>95%</div>
-                        </div>
-                        <div class="col">
-                            <div class="small text-black-50">Issue</div>
-                            <div class="text-danger" style="font-size: 1.4rem;"><i class="material-icons mr-2">warning</i>1</div>
-                        </div>
-                    </div>
+                    <canvas id="cProductionS" width="400" height="180"></canvas>
                 </div>
             </div>
         </div>
@@ -49,8 +79,8 @@
             <div class="card shadow-sm mb-3">
                 <div class="card-header justify-content-between d-flex bg-white py-2">
                     <div class="font-weight-light my-auto">
-                        <div style="font-size:18px;" class="text-black-50">Production Log</div>
-                        <div class="small text-dark">21 Oct 2020</div>
+                        <div style="font-size:18px;" class="text-black-50">Performance</div>
+                        <div class="small text-dark">24 Oct 2020</div>
                     </div>
                     <div class="my-auto">
                         <select class="form-control border-0" id="exampleFormControlSelect1">
@@ -61,7 +91,26 @@
                         </select>
                     </div>
                 </div>
-                <div class="card-body px-1 p-lg-3">
+                <div class="card-body px-1 p-lg-4">
+                    <canvas id="cPerformance" width="400" height="86"></canvas>
+                </div>
+            </div>
+            <div class="card shadow-sm mb-3">
+                <div class="card-header justify-content-between d-flex bg-white py-2">
+                    <div class="font-weight-light my-auto">
+                        <div style="font-size:18px;" class="text-black-50">Production Log</div>
+                        <div class="small text-dark">24 Oct 2020</div>
+                    </div>
+                    <div class="my-auto">
+                        <select class="form-control border-0" id="exampleFormControlSelect1">
+                          <option>Today</option>
+                          <option>Week</option>
+                          <option>Month</option>
+                          <option>Year</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="card-body px-1 pt-lg-2 pb-lg-0 px-lg-3">
                     <table id="example" class="display table" cellspacing="0" width="100%">
                         <thead>
                             <tr>
@@ -76,35 +125,35 @@
                         <tbody>
                             <tr>
                                 <td>1</td>
-                                <td>Wilayah 1</td>
-                                <td><span class="text-muted">100000</span>/93000</td>
+                                <td>Region 1</td>
+                                <td><span class="text-muted">100000</span>/120000</td>
                                 <td class="d-none d-sm-block">20 Oct 2020</td>
                                 <td><i class="material-icons text-muted cur-default" title="Out-date">watch_later</i></td>
                             </tr>
                             <tr>
                                 <td>2</td>
-                                <td>Wilayah 2</td>
+                                <td>Region 2</td>
                                 <td><span class="text-muted">150000</span>/195000</td>
                                 <td class="d-none d-sm-block">21 Oct 2020</td>
                                 <td><i class="material-icons text-success cur-default" title="Good">check_circle</i></td>
                             </tr>
                             <tr>
                                 <td>3</td>
-                                <td>Wilayah 3</td>
+                                <td>Region 3</td>
                                 <td>200000/200000</td>
                                 <td class="d-none d-sm-block">22 Oct 2020</td>
                                 <td><i class="material-icons text-success cur-default" title="Good">check_circle</i></td>
                             </tr>
                             <tr>
                                 <td>4</td>
-                                <td>Wilayah 4</td>
+                                <td>Region 4</td>
                                 <td><span class="text-muted">300000</span>/320000</td>
                                 <td class="d-none d-sm-block">21 Oct 2020</td>
                                 <td><i class="material-icons text-danger cur-default" title="1 Issue">warning</i></td>
                             </tr>
                             <tr>
                                 <td>5</td>
-                                <td>Wilayah 5</td>
+                                <td>Region 5</td>
                                 <td><span class="text-muted">300000</span>/340000</td>
                                 <td class="d-none d-sm-block">22 Oct 2020</td>
                                 <td><i class="material-icons text-success cur-default" title="Good">check_circle</i></td>
@@ -112,18 +161,179 @@
                         </tbody>
                     </table>
                 </div>
+                <div class="card-footer bg-white">
+                    <div class="row">
+                        <div class="col">
+                            <div class="small text-truncate text-black-50">Avg. Performance</div>
+                            <div class="text-success" style="font-size: 1.2rem;"><i class="material-icons mr-2">check_circle</i>80%</div>
+                        </div>
+                        <div class="col">
+                            <div class="small text-truncate text-black-50">Avg. Progress</div>
+                            <div class="text-success" style="font-size: 1.2rem;"><i class="material-icons mr-2">check_circle</i>88%</div>
+                        </div>
+                        <div class="col mb-3 mb-lg-0">
+                            <div class="small text-black-50">Issue</div>
+                            <div class="text-danger" style="font-size: 1.2rem;"><i class="material-icons mr-2">warning</i>1</div>
+                        </div>
+                        <div class="col">
+                            <div class="small text-black-50">Out-date</div>
+                            <div class="text-muted" style="font-size: 1.2rem;"><i class="material-icons mr-2">watch_later</i>1</div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
 </div>
 
 <script>
-    // Chartjs
-    var ctx = document.getElementById('myChart');
-    var myChart = new Chart(ctx, {
+    // Chartjs progress Region 1
+    var cProg1 = document.getElementById('cProgress1');
+    var cProgress1 = new Chart(cProg1, {
+        type: 'doughnut',
+        data: {
+            labels: ['Done', 'Undone'],
+            datasets: [{
+                label: 'Progress',
+                data: [83, 17],
+                backgroundColor: [
+                    'rgba(54, 162, 235, 1)',
+                    'rgba(183, 186, 191, 0.3)'
+                ]
+            }]
+        },
+        options: {
+            elements: {
+                arc: {
+                    borderWidth: 0
+                }
+            },
+            legend: {
+                display: false
+            },
+            cutoutPercentage: 80
+        }
+    });
+
+    // Chartjs progress Region 2
+    var cProg2 = document.getElementById('cProgress2');
+    var cProgress2 = new Chart(cProg2, {
+        type: 'doughnut',
+        data: {
+            labels: ['Done', 'Undone'],
+            datasets: [{
+                label: 'Progress',
+                data: [77, 23],
+                backgroundColor: [
+                    'rgba(54, 162, 235, 1)',
+                    'rgba(183, 186, 191, 0.3)'
+                ]
+            }]
+        },
+        options: {
+            elements: {
+                arc: {
+                    borderWidth: 0
+                }
+            },
+            legend: {
+                display: false
+            },
+            cutoutPercentage: 80
+        }
+    });
+
+    // Chartjs progress Region 3
+    var cProg3 = document.getElementById('cProgress3');
+    var cProgress3 = new Chart(cProg3, {
+        type: 'doughnut',
+        data: {
+            labels: ['Done', 'Undone'],
+            datasets: [{
+                label: 'Progress',
+                data: [100, 0],
+                backgroundColor: [
+                    'rgba(54, 162, 235, 1)',
+                    'rgba(183, 186, 191, 0.3)'
+                ]
+            }]
+        },
+        options: {
+            elements: {
+                arc: {
+                    borderWidth: 0
+                }
+            },
+            legend: {
+                display: false
+            },
+            cutoutPercentage: 80
+        }
+    });
+
+    // Chartjs progress Region 4
+    var cProg4 = document.getElementById('cProgress4');
+    var cProgress4 = new Chart(cProg4, {
+        type: 'doughnut',
+        data: {
+            labels: ['Done', 'Undone'],
+            datasets: [{
+                label: 'Progress',
+                data: [93, 7],
+                backgroundColor: [
+                    'rgba(54, 162, 235, 1)',
+                    'rgba(183, 186, 191, 0.3)'
+                ]
+            }]
+        },
+        options: {
+            elements: {
+                arc: {
+                    borderWidth: 0
+                }
+            },
+            legend: {
+                display: false
+            },
+            cutoutPercentage: 80
+        }
+    });
+
+    // Chartjs progress Region 5
+    var cProg5 = document.getElementById('cProgress5');
+    var cProgress5 = new Chart(cProg5, {
+        type: 'doughnut',
+        data: {
+            labels: ['Done', 'Undone'],
+            datasets: [{
+                label: 'Progress',
+                data: [88, 12],
+                backgroundColor: [
+                    'rgba(54, 162, 235, 1)',
+                    'rgba(183, 186, 191, 0.3)'
+                ]
+            }]
+        },
+        options: {
+            elements: {
+                arc: {
+                    borderWidth: 0
+                }
+            },
+            legend: {
+                display: false
+            },
+            cutoutPercentage: 80
+        }
+    });
+
+
+    // Chartjs production summary
+    var cProd = document.getElementById('cProductionS');
+    var cProductionS = new Chart(cProd, {
         type: 'bar',
         data: {
-            labels: ['Wilayah 1', 'Wilayah 2', 'Wilayah 3', 'Wilayah 4', 'Wilayah 5'],
+            labels: ['Region 1', 'Region 2', 'Region 3', 'Region 4', 'Region 5'],
             datasets: [{
                 label: 'Production',
                 data: [100000, 150000, 200000, 300000, 300000],
@@ -147,6 +357,7 @@
             }]
         },
         options: {
+            responsive: true,
             legend: {
                 display: false
             },
@@ -155,6 +366,9 @@
                     ticks: {
                         beginAtZero: true
                     }
+                }],
+                xAxes: [{
+                    barPercentage: 0.4
                 }]
             }
         }

@@ -10,6 +10,41 @@
 
 <div class="container-fluid mt-5 pt-4">
     <div class="row">
+        <div class="col-12 col-lg-4 pr-lg-0">
+        	<div class="card mb-3">
+        		<div class="card-header bg-white py-2">
+        			<div class="row">
+        				<div class="col my-auto"><i class="material-icons text-muted mr-2">inbox</i>Approval</div>
+        				<div class="col"><input class="form-control" type="" name=""></div>
+        			</div>
+        		</div>
+        		<div class="card-body shadow-sm">
+        			
+        		</div>
+        	</div>
+        	<div class="card mb-3">
+        		<div class="card-body shadow-sm">
+        			<div class="justify-content-between d-flex">
+        				<div>
+        					<div>Production Target</div>
+        					<div class="small text-muted">Production on progress until 23 Dec 2020</div>
+        				</div>
+        				<div><button class="btn btn-primary" data-toggle="modal" data-target="#mProductionT"><i class="material-icons">post_add</i></button></div>
+        			</div>
+        		</div>
+        	</div>
+        	<div class="card mb-3">
+        		<div class="card-body shadow-sm">
+        			<div class="justify-content-between d-flex">
+        				<div>
+        					<div>Daily Report</div>
+        					<div class="small text-muted">Your report will outdated in 2 days</div>
+        				</div>
+        				<div><button class="btn btn-primary" data-toggle="modal" data-target="#mDailyR"><i class="material-icons">add</i></button></div>
+        			</div>
+        		</div>
+        	</div>
+        </div>
         <div class="col-12 col-lg-8">
             <div class="card shadow-sm mb-3">
                 <div class="card-header bg-white pt-2 pb-0">
@@ -18,11 +53,11 @@
                 			<i class="material-icons text-muted mr-3 my-auto">filter_alt</i>
 	                        <select class="form-control" id="">
 	                          <option>All Location</option>
-	                          <option>Wilayah 1</option>
-	                          <option>Wilayah 2</option>
-	                          <option>Wilayah 3</option>
-	                          <option>Wilayah 4</option>
-	                          <option>Wilayah 5</option>
+	                          <option>Region 1</option>
+	                          <option>Region 2</option>
+	                          <option>Region 3</option>
+	                          <option>Region 4</option>
+	                          <option>Region 5</option>
 	                        </select>
 	                    </div>
 	                    <div class="col-12 col-lg-5 pl-lg-0 mb-2">
@@ -61,61 +96,61 @@
                             <tr>
                                 <td>1</td>
                                 <td>22 Oct 2020</td>
-                                <td>Wilayah 3</td>
+                                <td>Region 3</td>
                                 <td>180000</td>
                             </tr>
                             <tr>
                                 <td>2</td>
                                 <td>22 Oct 2020</td>
-                                <td>Wilayah 5</td>
+                                <td>Region 5</td>
                                 <td>250000</td>
                             </tr>
                             <tr>
                                 <td>3</td>
                                 <td>21 Oct 2020</td>
-                                <td>Wilayah 2</td>
+                                <td>Region 2</td>
                                 <td>150000</td>
                             </tr>
                             <tr>
                                 <td>4</td>
                                 <td>21 Oct 2020</td>
-                                <td>Wilayah 4</td>
+                                <td>Region 4</td>
                                 <td>300000</td>
                             </tr>
                             <tr>
                                 <td>5</td>
                                 <td>20 Oct 2020</td>
-                                <td>Wilayah 1</td>
+                                <td>Region 1</td>
                                 <td>80000</td>
                             </tr>
                             <tr>
                                 <td>6</td>
                                 <td>19 Oct 2020</td>
-                                <td>Wilayah 3</td>
+                                <td>Region 3</td>
                                 <td>140000</td>
                             </tr>
                             <tr>
                                 <td>7</td>
                                 <td>19 Oct 2020</td>
-                                <td>Wilayah 5</td>
+                                <td>Region 5</td>
                                 <td>200000</td>
                             </tr>
                             <tr>
                                 <td>8</td>
                                 <td>18 Oct 2020</td>
-                                <td>Wilayah 2</td>
+                                <td>Region 2</td>
                                 <td>120000</td>
                             </tr>
                             <tr>
                                 <td>9</td>
                                 <td>18 Oct 2020</td>
-                                <td>Wilayah 4</td>
+                                <td>Region 4</td>
                                 <td>280000</td>
                             </tr>
                             <tr>
                                 <td>10</td>
                                 <td>18 Oct 2020</td>
-                                <td>Wilayah 1</td>
+                                <td>Region 1</td>
                                 <td>60000</td>
                             </tr>
                         </tbody>
@@ -123,31 +158,54 @@
                 </div>
             </div>
         </div>
-        <div class="col-12 col-lg-4 pl-lg-0">
-        	<div class="card mb-3">
-        		<div class="card-body shadow-sm">
-        			<div class="justify-content-between d-flex">
-        				<div>
-        					<div>Production Target</div>
-        					<div class="small text-muted">Production on progress until 23 Dec 2020</div>
-        				</div>
-        				<div><button class="btn btn-primary" data-toggle="modal" data-target="#mProductionT"><i class="material-icons">post_add</i></button></div>
-        			</div>
-        		</div>
-        	</div>
-        	<div class="card mb-3">
-        		<div class="card-body shadow-sm">
-        			<div class="justify-content-between d-flex">
-        				<div>
-        					<div>Daily Report</div>
-        					<div class="small text-muted">Your report will outdated in 2 days</div>
-        				</div>
-        				<div><button class="btn btn-primary" data-toggle="modal" data-target="#mDailyR"><i class="material-icons">add</i></button></div>
-        			</div>
-        		</div>
-        	</div>
-        </div>
     </div>
+</div>
+
+<!-- Modal report approval -->
+<div class="modal fade" id="mReportA" data-backdrop="static" data-keyboard="false" tabindex="-1" aria-labelledby="mReportALabel" aria-hidden="true">
+  	<div class="modal-dialog">
+    	<div class="modal-content">
+      		<div class="modal-header bg-nk py-2">
+        		<h5 class="modal-title font-weight-light" style="font-size: 16px;" id="mReportALabel">Report Approval</h5>
+       			<i class="material-icons text-white cur-pointer my-auto" data-dismiss="modal">close</i>
+      		</div>
+	      	<div class="modal-body">
+			  	<div class="form-group">
+			    	<label class="small" for="">Location</label>
+			    	<select class="form-control" id="">
+		              <option>Select Location</option>
+		              <option>Region 1</option>
+		              <option>Region 2</option>
+		              <option>Region 3</option>
+		              <option>Region 4</option>
+		              <option>Region 5</option>
+	            	</select>
+			  	</div>
+			  	<div class="row">
+			  		<div class="col-12 col-lg-6">
+			  			<div class="form-group">
+					    	<label class="small" for="">Start</label>
+					    	<input class="form-control" type="text" name="sProduction" value="10/24/2020" />
+					  	</div>
+			  		</div>
+				  	<div class="col-12 col-lg-6">
+				  		<div class="form-group">
+						    <label class="small" for="">End</label>
+						    <input class="form-control" type="text" name="eProduction" value="10/24/2020" />
+						</div>
+				  	</div>
+			  	</div>
+			  	<div class="form-group">
+				    <label class="small" for="">Amount of Production</label>
+				    <input type="number" class="form-control" id="">
+				</div>
+			</div>
+	      	<div class="modal-footer justify-content-between py-1">
+	        	<button type="button" class="btn btn-secondary" data-dismiss="modal">Cancel</button>
+	        	<button type="button" class="btn btn-primary" data-dismiss="modal">Submit</button>
+	     	</div>
+    	</div>
+  	</div>
 </div>
 
 <!-- Modal production target -->
@@ -163,11 +221,11 @@
 			    	<label class="small" for="">Location</label>
 			    	<select class="form-control" id="">
 		              <option>Select Location</option>
-		              <option>Wilayah 1</option>
-		              <option>Wilayah 2</option>
-		              <option>Wilayah 3</option>
-		              <option>Wilayah 4</option>
-		              <option>Wilayah 5</option>
+		              <option>Region 1</option>
+		              <option>Region 2</option>
+		              <option>Region 3</option>
+		              <option>Region 4</option>
+		              <option>Region 5</option>
 	            	</select>
 			  	</div>
 			  	<div class="row">
@@ -207,16 +265,16 @@
       		</div>
 	      	<div class="modal-body">
 			  	<div class="row">
-			  		<div class="col-3 text-muted">Location</div>
-			  		<div class="col-8">Wilayah 1</div>
+			  		<div class="col-3 text-muted" style="font-size: 14px;">Location</div>
+			  		<div class="col-8" style="font-size: 14px;">Region 1</div>
 			  	</div>
 			  	<div class="row">
-			  		<div class="col-3 text-muted">Amount</div>
-			  		<div class="col-8"><span class="text-muted">80000</span>/120000 <span class="text-muted small">(25% to go)</span></div>
+			  		<div class="col-3 text-muted" style="font-size: 14px;">Amount</div>
+			  		<div class="col-8" style="font-size: 14px;"><span class="text-muted">80000</span> / 120000 <span class="text-muted small">(25% to go)</span></div>
 			  	</div>
 			  	<div class="row">
-			  		<div class="col-3 text-muted">End Date</div>
-			  		<div class="col-8">24 Dec 2020</div>
+			  		<div class="col-3 text-muted" style="font-size: 14px;">End Date</div>
+			  		<div class="col-8" style="font-size: 14px;">24 Dec 2020</div>
 			  	</div>
 			  	<hr>
 			  	<div class="row">

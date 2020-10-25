@@ -4,9 +4,6 @@
     table.dataTable thead th {
         border-top: none;
     }
-    table.dataTable {
-        margin: 0px !important;
-    }
 </style>
 
 <!-- Js (private use only) -->

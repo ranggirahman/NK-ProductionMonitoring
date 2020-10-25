@@ -11,6 +11,11 @@ footer {
     overflow:hidden;
 }
 
+/* remove data table margin */
+table.dataTable {
+    margin: 0px !important;
+}
+
 /* a href remove decoration (underline etc)*/
 a {
     text-decoration: none !important; 

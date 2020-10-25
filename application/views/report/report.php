@@ -14,7 +14,7 @@
         	<div class="card mb-3">
         		<div class="card-header bg-white py-2">
         			<div class="row">
-        				<div class="col my-auto"><i class="material-icons text-muted mr-2">inbox</i>Approval</div>
+        				<div class="col my-auto"><i class="material-icons text-muted mr-2" style="opacity: 0.6;">inbox</i>Approval</div>
         				<div class="col"><input class="form-control" type="" name=""></div>
         			</div>
         		</div>
@@ -47,10 +47,10 @@
         </div>
         <div class="col-12 col-lg-8">
             <div class="card shadow-sm mb-3">
-                <div class="card-header bg-white pt-2 pb-0">
+                <div class="card-header bg-white pb-1 pt-lg-2 pb-lg-0">
                 	<div class="row">
                 		<div class="col-12 col-lg-3 mb-2 d-flex">
-                			<i class="material-icons text-muted mr-3 my-auto">filter_alt</i>
+                			<i class="material-icons text-muted d-none d-sm-block mr-3 my-auto" style="opacity: 0.6;">filter_alt</i>
 	                        <select class="form-control" id="">
 	                          <option>All Location</option>
 	                          <option>Region 1</option>
@@ -81,7 +81,7 @@
 		                </div>
                 	</div>
                 </div>
-                <div class="card-body px-1 p-lg-4">
+                <div class="card-body px-1 px-lg-4 py-3">
                     <table id="example" class="display table" cellspacing="0" width="100%">
                         <thead>
                             <tr>
@@ -270,7 +270,7 @@
 			  	</div>
 			  	<div class="row">
 			  		<div class="col-3 text-muted" style="font-size: 14px;">Amount</div>
-			  		<div class="col-8" style="font-size: 14px;"><span class="text-muted">80000</span> / 120000 <span class="text-muted small">(25% to go)</span></div>
+			  		<div class="col-8" style="font-size: 14px;"><span class="text-muted">100000</span> / 120000 <span class="text-muted small">(-17%)</span></div>
 			  	</div>
 			  	<div class="row">
 			  		<div class="col-3 text-muted" style="font-size: 14px;">End Date</div>

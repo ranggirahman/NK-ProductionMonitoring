@@ -57,36 +57,36 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                                 <a href="" class="border rounded text-dark d-flex p-2 m-1">
                                     <div class="mr-3 my-auto" style="position: relative;"><i class="material-icons text-muted">assignment</i><span class="text-danger" style="font-size: 40px; position: absolute; top: -30px; right: -4px; -webkit-text-stroke: 2px white;">•</span></div>
                                     <div>
-                                        <div style="font-size: 13px;">Report From Wilayah 1 Updated</div>
-                                        <div class="text-muted" style="font-size: 10px;">14m ago</div>
+                                        <div style="font-size: 13px;">Report 20 Oct 2020 Approved</div>
+                                        <div class="text-muted" style="font-size: 10px;">3d ago</div>
                                     </div>
                                 </a>
                                 <a href="" class="border rounded text-dark d-flex p-2 m-1">
                                     <div class="mr-3 my-auto" style="position: relative;"><i class="material-icons text-muted">assignment</i><span class="text-danger" style="font-size: 40px; position: absolute; top: -30px; right: -4px; -webkit-text-stroke: 2px white;">•</span></div>
                                     <div>
-                                        <div style="font-size: 13px;">Report From Wilayah 2 Updated</div>
-                                        <div class="text-muted" style="font-size: 10px;">2h ago</div>
+                                        <div style="font-size: 13px;">Report 19 Oct 2020 Approved</div>
+                                        <div class="text-muted" style="font-size: 10px;">4d ago</div>
                                     </div>
                                 </a>
                                 <a href="" class="border rounded text-muted d-flex p-2 m-1">
                                     <div class="mr-3 my-auto"><i class="material-icons text-muted">assignment</i></div>
                                     <div>
-                                        <div style="font-size: 13px;">Report From Wilayah 3 Updated</div>
-                                        <div class="text-muted" style="font-size: 10px;">1d ago</div>
+                                        <div style="font-size: 13px;">Report 24 Sep 2020 Updated</div>
+                                        <div class="text-muted" style="font-size: 10px;">20d ago</div>
                                     </div>
                                 </a>
                                 <a href="" class="border rounded text-muted d-flex p-2 m-1">
                                     <div class="mr-3 my-auto"><i class="material-icons text-muted">assignment</i></div>
                                     <div>
-                                        <div style="font-size: 13px;">Report From Wilayah 4 Updated</div>
-                                        <div class="text-muted" style="font-size: 10px;">1d ago</div>
+                                        <div style="font-size: 13px;">Report 1 Sep 2020 Updated</div>
+                                        <div class="text-muted" style="font-size: 10px;">30d ago</div>
                                     </div>
                                 </a>
                                 <a href="" class="border rounded text-muted d-flex p-2 m-1">
                                     <div class="mr-3 my-auto"><i class="material-icons text-muted">assignment</i></div>
                                     <div>
-                                        <div style="font-size: 13px;">Report From Wilayah 1 Updated</div>
-                                        <div class="text-muted" style="font-size: 10px;">1d ago</div>
+                                        <div style="font-size: 13px;">Report 19 Oct 2019 Updated</div>
+                                        <div class="text-muted" style="font-size: 10px;">1y ago</div>
                                     </div>
                                 </a>
                             </div>

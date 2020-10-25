@@ -170,17 +170,7 @@
        			<i class="material-icons text-white cur-pointer my-auto" data-dismiss="modal">close</i>
       		</div>
 	      	<div class="modal-body">
-			  	<div class="form-group">
-			    	<label class="small" for="">Location</label>
-			    	<select class="form-control" id="">
-		              <option>Select Location</option>
-		              <option>Region 1</option>
-		              <option>Region 2</option>
-		              <option>Region 3</option>
-		              <option>Region 4</option>
-		              <option>Region 5</option>
-	            	</select>
-			  	</div>
+			  	
 			  	<div class="row">
 			  		<div class="col-12 col-lg-6">
 			  			<div class="form-group">
@@ -243,7 +233,7 @@
 				  	</div>
 			  	</div>
 			  	<div class="form-group">
-				    <label class="small" for=""><i class="material-icons text-muted mr-1" style="font-size: 13px; opacity: 0.5;">widgets</i>Amount of Production</label>
+				    <label class="small" for=""><i class="material-icons text-muted mr-1" style="font-size: 13px; opacity: 0.5;">widgets</i>Target Production</label>
 				    <input type="number" class="form-control" id="">
 				</div>
 			</div>
@@ -298,7 +288,15 @@
 			  		<div class="col-12 col-lg-9">
 			  			<div class="form-group">
 					    	<label class="small" for=""><i class="material-icons text-muted mr-1" style="font-size: 13px; opacity: 0.5;">widgets</i>Amount</label>
-					    	<input type="number" class="form-control" min="80000" max="120000" id="">
+					    	<div class="input-group border rounded">
+							  <div class="input-group-prepend cur-default">
+							    <span class="input-group-text bg-white border-0">+</span>
+							  </div>
+							  <input type="text" class="form-control border-0" aria-label="Amount (to the nearest dollar)">
+							  <div class="input-group-append cur-pointer border-0">
+							    <span class="input-group-text bg-white border-0 px-2"><i class="material-icons" data-html="true" data-toggle="tooltip" data-placement="top" title="<div class='text-right'>100000<br/><b>400</b><br/>+ ______________<br/>100400</div>">info</i></span>
+							  </div>
+							</div>
 					  	</div>
 			  		</div>
 				  	<div class="col-12 col-lg-3 pl-lg-0">

@@ -162,7 +162,7 @@
 </div>
 
 <!-- Modal report approval -->
-<div class="modal fade" id="mReportA" data-backdrop="static" data-keyboard="false" tabindex="-1" aria-labelledby="mReportALabel" aria-hidden="true">
+<div class="modal fade mt-5" id="mReportA" data-backdrop="static" data-keyboard="false" tabindex="-1" aria-labelledby="mReportALabel" aria-hidden="true">
   	<div class="modal-dialog">
     	<div class="modal-content">
       		<div class="modal-header bg-nk py-2">
@@ -209,7 +209,7 @@
 </div>
 
 <!-- Modal production target -->
-<div class="modal fade" id="mProductionT" data-backdrop="static" data-keyboard="false" tabindex="-1" aria-labelledby="mProductionTLabel" aria-hidden="true">
+<div class="modal fade mt-5" id="mProductionT" data-backdrop="static" data-keyboard="false" tabindex="-1" aria-labelledby="mProductionTLabel" aria-hidden="true">
   	<div class="modal-dialog">
     	<div class="modal-content">
       		<div class="modal-header bg-nk py-2">
@@ -218,7 +218,7 @@
       		</div>
 	      	<div class="modal-body">
 			  	<div class="form-group">
-			    	<label class="small" for="">Location</label>
+			    	<label class="small" for=""><i class="material-icons text-muted mr-1" style="font-size: 13px; opacity: 0.5;">place</i>Location</label>
 			    	<select class="form-control" id="">
 		              <option>Select Location</option>
 		              <option>Region 1</option>
@@ -229,21 +229,21 @@
 	            	</select>
 			  	</div>
 			  	<div class="row">
-			  		<div class="col-12 col-lg-6">
+			  		<div class="col-12 col-lg-6 pr-lg-1">
 			  			<div class="form-group">
-					    	<label class="small" for="">Start</label>
+					    	<label class="small" for=""><i class="material-icons text-muted mr-1" style="font-size: 13px; opacity: 0.5;">today</i>Start</label>
 					    	<input class="form-control" type="text" name="sProduction" value="10/24/2020" />
 					  	</div>
 			  		</div>
-				  	<div class="col-12 col-lg-6">
+				  	<div class="col-12 col-lg-6 pl-lg-1">
 				  		<div class="form-group">
-						    <label class="small" for="">End</label>
+						    <label class="small" for=""><i class="material-icons text-muted mr-1" style="font-size: 13px; opacity: 0.5;">event</i>End</label>
 						    <input class="form-control" type="text" name="eProduction" value="10/24/2020" />
 						</div>
 				  	</div>
 			  	</div>
 			  	<div class="form-group">
-				    <label class="small" for="">Amount of Production</label>
+				    <label class="small" for=""><i class="material-icons text-muted mr-1" style="font-size: 13px; opacity: 0.5;">widgets</i>Amount of Production</label>
 				    <input type="number" class="form-control" id="">
 				</div>
 			</div>
@@ -256,7 +256,7 @@
 </div>
 
 <!-- Modal daily report -->
-<div class="modal fade" id="mDailyR" data-backdrop="static" data-keyboard="false" tabindex="-1" aria-labelledby="mDailyRLabel" aria-hidden="true">
+<div class="modal fade mt-5" id="mDailyR" data-backdrop="static" data-keyboard="false" tabindex="-1" aria-labelledby="mDailyRLabel" aria-hidden="true">
   	<div class="modal-dialog">
     	<div class="modal-content">
       		<div class="modal-header bg-nk py-2">
@@ -278,25 +278,42 @@
 			  	</div>
 			  	<hr>
 			  	<div class="row">
-			  		<div class="col-12 col-lg-8">
+			  		<div class="col-12 col-lg-4 pr-lg-0">
 			  			<div class="form-group">
-					    	<label class="small" for="">Today Amount</label>
+					    	<label class="small" for=""><i class="material-icons text-muted mr-1" style="font-size: 13px; opacity: 0.5;">calendar_today</i>Date</label>
+					    	<input class="form-control" type="text" name="dReport" value="10/24/2020"/>
+					  	</div>
+			  		</div>
+				  	<div class="col-12 col-lg-8">
+				  		<div class="form-group">
+						    <label class="small" for=""><i class="material-icons text-muted mr-1" style="font-size: 15px; opacity: 0.6;">attach_file</i>Evidence</label>
+						    <div class="custom-file">
+							  <input type="file" class="custom-file-input" id="customFile">
+							  <label class="custom-file-label" for="customFile">Choose file</label>
+							</div>
+						</div>
+				  	</div>
+			  	</div>
+			  	<div class="row">
+			  		<div class="col-12 col-lg-9">
+			  			<div class="form-group">
+					    	<label class="small" for=""><i class="material-icons text-muted mr-1" style="font-size: 13px; opacity: 0.5;">widgets</i>Amount</label>
 					    	<input type="number" class="form-control" min="80000" max="120000" id="">
 					  	</div>
 			  		</div>
-				  	<div class="col-12 col-lg-4">
+				  	<div class="col-12 col-lg-3 pl-lg-0">
 				  		<div class="form-group">
-						    <label class="small" for="">Performance</label>
+						    <label class="small" for="">Performance (%)</label>
 						    <input type="number" class="form-control" min="0" max="100" id="">
 						</div>
 				  	</div>
 			  	</div>
 			  	<div class="form-group">
-				  	<label class="small" for=""><i class="material-icons text-muted mr-1" style="font-size: 13px;">note</i>Note</label>
+				  	<label class="small" for=""><i class="material-icons text-muted mr-1" style="font-size: 15px; opacity: 0.6;">note</i>Note</label>
 				  	<textarea class="form-control"></textarea>
 				</div>
 				<div class="form-group">
-			  		<label class="small" for=""><i class="material-icons text-muted mr-1" style="font-size: 13px;">warning</i>Issue</label>
+			  		<label class="small" for=""><i class="material-icons text-muted mr-1" style="font-size: 15px; opacity: 0.6;">warning</i>Issue</label>
 			  		<textarea class="form-control"></textarea>
 			  	</div>
 			</div>
@@ -374,6 +391,18 @@
 	});
 	$(function() {
 	  $('input[name="eProduction"]').daterangepicker({
+	  	"autoApply": true,
+	    singleDatePicker: true,
+	    showDropdowns: true,
+	    minYear: 2020
+	  }, function(start, end, label) {
+	    var years = moment().diff(start, 'years');
+	  });
+	});
+
+	// datepicker daily report
+	$(function() {
+	  $('input[name="dReport"]').daterangepicker({
 	  	"autoApply": true,
 	    singleDatePicker: true,
 	    showDropdowns: true,

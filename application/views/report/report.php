@@ -129,7 +129,7 @@
         			<div class="justify-content-between d-flex">
         				<div>
         					<div>Production Target</div>
-        					<div class="small text-muted">Production is on progress until 23 Dec 2020</div>
+        					<div class="small text-muted">Production on progress until 23 Dec 2020</div>
         				</div>
         				<div><button class="btn btn-primary" data-toggle="modal" data-target="#mProductionT"><i class="material-icons">post_add</i></button></div>
         			</div>
@@ -140,7 +140,7 @@
         			<div class="justify-content-between d-flex">
         				<div>
         					<div>Daily Report</div>
-        					<div class="small text-muted">Your report will be outdated in 2 days</div>
+        					<div class="small text-muted">Your report will outdated in 2 days</div>
         				</div>
         				<div><button class="btn btn-primary" data-toggle="modal" data-target="#mDailyR"><i class="material-icons">add</i></button></div>
         			</div>

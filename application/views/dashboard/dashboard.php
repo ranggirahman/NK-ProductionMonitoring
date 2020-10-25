@@ -12,7 +12,7 @@
             <div class="card shadow-sm mb-3">
                 <div class="card-header justify-content-between d-flex bg-white py-2">
                     <div class="font-weight-light my-auto">
-                        <div style="font-size:18px;" class="text-black-50">Graphic</div>
+                        <div style="font-size:18px;" class="text-black-50">Summary</div>
                         <div class="small text-dark">21 Oct 2020</div>
                     </div>
                     <div class="my-auto">
@@ -37,13 +37,9 @@
                             <div class="small text-truncate text-black-50">Avg. Progress</div>
                             <div class="text-success" style="font-size: 1.4rem;"><i class="material-icons mr-2">check_circle</i>95%</div>
                         </div>
-                        <div class="col mb-lg-0 mb-3">
+                        <div class="col">
                             <div class="small text-black-50">Issue</div>
-                            <div class="text-danger" style="font-size: 1.4rem;"><i class="material-icons mr-2">warning</i>2</div>
-                        </div>
-                        <div class="col-10 col-lg-4">
-                            <div class="small text-black-50">Production (Monthly)</div>
-                            <div style="font-size: 1.4rem;"><span class="text-black-50">400000</span> / 1200000</div>
+                            <div class="text-danger" style="font-size: 1.4rem;"><i class="material-icons mr-2">warning</i>1</div>
                         </div>
                     </div>
                 </div>
@@ -53,7 +49,7 @@
             <div class="card shadow-sm mb-3">
                 <div class="card-header justify-content-between d-flex bg-white py-2">
                     <div class="font-weight-light my-auto">
-                        <div style="font-size:18px;" class="text-black-50">Table</div>
+                        <div style="font-size:18px;" class="text-black-50">Production Log</div>
                         <div class="small text-dark">21 Oct 2020</div>
                     </div>
                     <div class="my-auto">
@@ -72,6 +68,8 @@
                                 <th>No</th>
                                 <th>Location</th>
                                 <th>Production</th>
+                                <th class="d-none d-sm-block">Last Update</th>
+                                <th><i class="material-icons" style="font-size: 20px;">build</i></th>
                             </tr>
                         </thead>
                  
@@ -79,27 +77,37 @@
                             <tr>
                                 <td>1</td>
                                 <td>Wilayah 1</td>
-                                <td>80000</td>
+                                <td><span class="text-muted">100000</span>/93000</td>
+                                <td class="d-none d-sm-block">20 Oct 2020</td>
+                                <td><i class="material-icons text-muted cur-default" title="Out-date">watch_later</i></td>
                             </tr>
                             <tr>
                                 <td>2</td>
                                 <td>Wilayah 2</td>
-                                <td>150000</td>
+                                <td><span class="text-muted">150000</span>/195000</td>
+                                <td class="d-none d-sm-block">21 Oct 2020</td>
+                                <td><i class="material-icons text-success cur-default" title="Good">check_circle</i></td>
                             </tr>
                             <tr>
                                 <td>3</td>
                                 <td>Wilayah 3</td>
-                                <td>180000</td>
+                                <td>200000/200000</td>
+                                <td class="d-none d-sm-block">22 Oct 2020</td>
+                                <td><i class="material-icons text-success cur-default" title="Good">check_circle</i></td>
                             </tr>
                             <tr>
                                 <td>4</td>
                                 <td>Wilayah 4</td>
-                                <td>300000</td>
+                                <td><span class="text-muted">300000</span>/320000</td>
+                                <td class="d-none d-sm-block">21 Oct 2020</td>
+                                <td><i class="material-icons text-danger cur-default" title="1 Issue">warning</i></td>
                             </tr>
                             <tr>
                                 <td>5</td>
                                 <td>Wilayah 5</td>
-                                <td>250000</td>
+                                <td><span class="text-muted">300000</span>/340000</td>
+                                <td class="d-none d-sm-block">22 Oct 2020</td>
+                                <td><i class="material-icons text-success cur-default" title="Good">check_circle</i></td>
                             </tr>
                         </tbody>
                     </table>
@@ -118,7 +126,7 @@
             labels: ['Wilayah 1', 'Wilayah 2', 'Wilayah 3', 'Wilayah 4', 'Wilayah 5'],
             datasets: [{
                 label: 'Production',
-                data: [80000, 150000, 180000, 300000, 250000],
+                data: [100000, 150000, 200000, 300000, 300000],
                 backgroundColor: [
                     'rgba(255, 99, 132, 1)',
                     'rgba(54, 162, 235, 1)',

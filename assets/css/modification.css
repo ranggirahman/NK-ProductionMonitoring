@@ -20,6 +20,9 @@ a {
 .cur-pointer {
 	cursor: pointer;
 }
+.cur-default{
+	cursor: default;
+}
 
 /* nindya color */
 .active-nk {
@@ -48,6 +51,11 @@ a {
 	color: #E85D25 !important;
 }
 .btn-outline-nk:hover {
+	background-color: #E85D25 !important;
+	color: white !important;
+}
+
+.bg-nk {
 	background-color: #E85D25 !important;
 	color: white !important;
 }

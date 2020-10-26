@@ -79,7 +79,7 @@
   			</div>
 			<div class="modal-footer justify-content-between d-flex py-2">
 				<button class="btn btn-sm btn-primary" data-dismiss="modal">Cancel</button>
-				<a href="<?base_url()?>login" class="btn btn-sm btn-outline-danger"><i class="material-icons mr-2" style="font-size: 18px;">exit_to_app</i>Sign Out</a>
+				<a href="<?=base_url();?>login" class="btn btn-sm btn-outline-danger"><i class="material-icons mr-2" style="font-size: 18px;">exit_to_app</i>Sign Out</a>
 			</div>
     	</div>
   	</div>

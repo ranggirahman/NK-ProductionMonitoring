@@ -73,13 +73,13 @@
 <div class="modal fade mt-5" id="mSignO" data-keyboard="false" tabindex="-1" aria-labelledby="mSignOLabel" aria-hidden="true">
   	<div class="modal-dialog modal-sm">
     	<div class="modal-content">
-	      	<div class="modal-body">
-  				<div class="font-weight-light text-black-50" style="font-size: 16px;" id="mSignOLabel">Are you sure ?</div>
-  				<div class="my-2">2 Report need your action</div>
-  				<div class="text-right mt-3">
-  					<button class="btn btn-sm btn-primary" data-dismiss="modal">Cancel</button>
-  					<a href="<?base_url()?>login" class="btn btn-sm btn-outline-danger"><i class="material-icons mr-2" style="font-size: 18px;">exit_to_app</i>Sign Out</a>
-  				</div>
+	      	<div class="modal-body p-3">
+  				<div class="font-weight-light text-black-50" style="font-size: 14px;" id="mSignOLabel">Are you sure ?</div>
+  				<div>2 Draft need your action</div>
+  			</div>
+			<div class="modal-footer justify-content-between d-flex py-2">
+				<button class="btn btn-sm btn-primary" data-dismiss="modal">Cancel</button>
+				<a href="<?base_url()?>login" class="btn btn-sm btn-outline-danger"><i class="material-icons mr-2" style="font-size: 18px;">exit_to_app</i>Sign Out</a>
 			</div>
     	</div>
   	</div>
@@ -87,7 +87,6 @@
 
 <script type="text/javascript">
 	// collapse report problem
-
 
 
 	// enable tooltip

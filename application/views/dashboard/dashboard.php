@@ -107,11 +107,11 @@
                     <table id="tProductionL" class="display table" cellspacing="0" width="100%">
                         <thead>
                             <tr>
-                                <th style="border-top: none;">No</th>
-                                <th style="border-top: none;">Location</th>
-                                <th style="border-top: none;">Production</th>
-                                <th style="border-top: none;" class="d-none d-sm-block">Last Update</th>
-                                <th style="border-top: none;"><i class="material-icons" style="font-size: 20px;">build</i></th>
+                                <th>No</th>
+                                <th>Location</th>
+                                <th>Production</th>
+                                <th class="d-none d-sm-block">Last Update</th>
+                                <th><i class="material-icons" style="font-size: 20px;">build</i></th>
                             </tr>
                         </thead>
                  

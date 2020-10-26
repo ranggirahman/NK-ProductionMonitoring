@@ -16,6 +16,12 @@ table.dataTable {
     margin: 0px !important;
 }
 
+/**/
+table.dataTable thead th {
+    border-top: none;
+}
+
+
 /* a href remove decoration (underline etc)*/
 a {
     text-decoration: none !important; 

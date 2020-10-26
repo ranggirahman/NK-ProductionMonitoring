@@ -22,11 +22,11 @@
         			<table id="tDraftB" class="display table table-sm table-hover" cellspacing="0" width="100%">
                         <thead>
                             <tr>
-                                <th style="border-top: none;">No</th>
-                                <th style="border-top: none;"></th>
-                                <th style="border-top: none;">Date</th>
-                                <th style="border-top: none;">Summary</th>
-                                <th style="border-top: none;"><i class="material-icons">assignment</i></th>
+                                <th>No</th>
+                                <th></th>
+                                <th>Date</th>
+                                <th>Summary</th>
+                                <th><i class="material-icons">assignment</i></th>
                             </tr>
                         </thead>
                  
@@ -168,7 +168,7 @@
 		                </div>
                 	</div>
                 </div>
-                <div class="card-body px-1 px-lg-4 py-3">
+                <div class="card-body py-0">
                     <table id="tReport" class="display table table-sm table-responsive-sm text-nowrap" cellspacing="0" width="100%">
                         <thead>
                             <tr>
@@ -287,6 +287,25 @@
                         </tbody>
                     </table>
                 </div>
+                <div class="card-footer bg-white pt-2 pb-0">
+        			<nav aria-label="Page navigation">
+					  <ul class="pagination justify-content-end mb-2">
+					    <li class="page-item">
+					      <a class="page-link" href="#" aria-label="Previous">
+					        <i class="material-icons" style="font-size: 18px;">chevron_left</i>
+					      </a>
+					    </li>
+					    <li class="page-item active" aria-current="page"><a class="page-link" href="#">1</a></li>
+					    <li class="page-item"><a class="page-link" href="#">2</a></li>
+					    <li class="page-item"><a class="page-link" href="#">3</a></li>
+					    <li class="page-item">
+					      <a class="page-link" href="#" aria-label="Next">
+					        <i class="material-icons" style="font-size: 18px;">chevron_right</i>
+					      </a>
+					    </li>
+					  </ul>
+					</nav>
+        		</div>
             </div>
         </div>
     </div>
@@ -574,15 +593,19 @@
     } );
     });
 
-    // datatables
+    // datatables report
     $(document).ready(function() {
       var table = $('#tReport').DataTable({ 
+            searching: false, 
+            paging: false, 
+            info: false,
             select: false,
             "columnDefs": [{
                 className: "Name", 
                 "targets":[0],
                 "visible": false,
-                "searchable":false
+                "searchable":false,
+                "searching": false
             }]
         });//End of create main table
 

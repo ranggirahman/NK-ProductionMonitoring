@@ -37,7 +37,7 @@
                                 <td>25 Oct 2020</td>
                                 <td class="small">
                                 	<div><i class="material-icons mr-1" style="font-size: 12px;">place</i>Region 4</div>
-                                	<div><i class="material-icons mr-1" style="font-size: 12px;">widgets</i><span class="text-muted">320000</span>/320000 (+20000)</div>
+                                	<div><i class="material-icons mr-1" style="font-size: 12px;">widgets</i>320000/320000 (+20000)</div>
                                 	<div><i class="material-icons mr-1" style="font-size: 12px;">speed</i>80% <span class="text-danger">(-5%)</span></div>
                                 </td>
                                 <td style="vertical-align: middle;"><i class="material-icons text-primary cur-noselect" data-toggle="tooltip" data-placement="top" title="Need action">assignment_late</i></td>
@@ -192,7 +192,7 @@
                                 <td class="text-right"><span class="text-muted">+</span>60000</td>
                                 <td>100<span class="text-muted">%</span></td>
                                 <td>Sudah serah terima</td>
-                                <td><a href=""><i class="material-icons text-muted mr-2">attach_file</i></a><i class="material-icons text-success cur-pointer" data-toggle="tooltip" data-placement="top" title="Delivered">local_shipping</i></td>
+                                <td><i class="material-icons text-success cur-pointer" data-toggle="tooltip" data-placement="top" title="Delivered">local_shipping</i></td>
                             </tr>
                             <tr>
                                 <td>2</td>
@@ -202,7 +202,7 @@
                                 <td class="text-right"><span class="text-muted">+</span>100000</td>
                                 <td>100<span class="text-muted">%</span></td>
                                 <td></td>
-                                <td><a href=""><i class="material-icons text-muted mr-2">attach_file</i></a></td>
+                                <td></td>
                             </tr>
                             <tr>
                                 <td>3</td>
@@ -212,7 +212,7 @@
                                 <td class="text-right"><span class="text-muted">+</span>30000</td>
                                 <td>96<span class="text-muted">%</span></td>
                                 <td></td>
-                                <td><a href=""><i class="material-icons text-muted mr-2">attach_file</i></a></td>
+                                <td></td>
                             </tr>
                             <tr>
                                 <td>4</td>
@@ -222,7 +222,7 @@
                                 <td class="text-right"><span class="text-muted">+</span>20000</td>
                                 <td>80<span class="text-muted">%</span></td>
                                 <td>Produksi terhambat</td>
-                                <td><a href=""><i class="material-icons text-muted mr-2">attach_file</i></a><i class="material-icons text-danger cur-pointer" data-toggle="tooltip" data-placement="top" title="Have Issue">warning</i></td>
+                                <td><i class="material-icons text-danger cur-pointer" data-toggle="tooltip" data-placement="top" title="Have Issue">warning</i></td>
                             </tr>
                             <tr>
                                 <td>5</td>
@@ -232,7 +232,7 @@
                                 <td class="text-right"><span class="text-muted">+</span>60000</td>
                                 <td>100<span class="text-muted">%</span></td>
                                 <td></td>
-                                <td><a href=""><i class="material-icons text-muted mr-2">attach_file</i></a></td>
+                                <td></td>
                             </tr>
                             <tr>
                                 <td>6</td>
@@ -242,7 +242,7 @@
                                 <td class="text-right"><span class="text-muted">+</span>20000</td>
                                 <td>98<span class="text-muted">%</span></td>
                                 <td></td>
-                                <td><a href=""><i class="material-icons text-muted mr-2">attach_file</i></a></td>
+                                <td></td>
                             </tr>
                             <tr>
                                 <td>7</td>
@@ -252,7 +252,7 @@
                                 <td class="text-right"><span class="text-muted">+</span>40000</td>
                                 <td>95<span class="text-muted">%</span></td>
                                 <td></td>
-                                <td><a href=""><i class="material-icons text-muted mr-2">attach_file</i></a></td>
+                                <td></td>
                             </tr>
                             <tr>
                                 <td>8</td>
@@ -262,7 +262,7 @@
                                 <td class="text-right"><span class="text-muted">+</span>25000</td>
                                 <td>98<span class="text-muted">%</span></td>
                                 <td></td>
-                                <td><a href=""><i class="material-icons text-muted mr-2">attach_file</i></a></td>
+                                <td></td>
                             </tr>
                             <tr>
                                 <td>9</td>
@@ -272,7 +272,7 @@
                                 <td class="text-right"><span class="text-muted">+</span>80000</td>
                                 <td>85<span class="text-muted">%</span></td>
                                 <td></td>
-                                <td><a href=""><i class="material-icons text-muted mr-2">attach_file</i></a></td>
+                                <td></td>
                             </tr>
                             <tr>
                                 <td>10</td>
@@ -282,7 +282,7 @@
                                 <td class="text-right"><span class="text-muted">+</span>60000</td>
                                 <td>95<span class="text-muted">%</span></td>
                                 <td></td>
-                                <td><a href=""><i class="material-icons text-muted mr-2">attach_file</i></a></td>
+                                <td></td>
                             </tr>
                         </tbody>
                     </table>
@@ -292,38 +292,55 @@
     </div>
 </div>
 
-<!-- Modal report approval -->
-<div class="modal fade mt-5" id="mReportA" data-backdrop="static" data-keyboard="false" tabindex="-1" aria-labelledby="mReportALabel" aria-hidden="true">
+<!-- Modal draft approval -->
+<div class="modal fade mt-5" id="mDraftA" data-backdrop="static" data-keyboard="false" tabindex="-1" aria-labelledby="mDraftALabel" aria-hidden="true">
   	<div class="modal-dialog">
     	<div class="modal-content">
       		<div class="modal-header bg-nk py-2">
-        		<h5 class="modal-title font-weight-light" style="font-size: 16px;" id="mReportALabel">Report Approval</h5>
+        		<h5 class="modal-title font-weight-light" style="font-size: 16px;" id="mDraftALabel">Draft Approval</h5>
        			<i class="material-icons text-white cur-pointer my-auto" data-dismiss="modal">close</i>
       		</div>
 	      	<div class="modal-body">
-			  	
 			  	<div class="row">
-			  		<div class="col-12 col-lg-6">
-			  			<div class="form-group">
-					    	<label class="small" for="">Start</label>
-					    	<input class="form-control" type="text" name="sProduction" value="10/24/2020" />
-					  	</div>
-			  		</div>
-				  	<div class="col-12 col-lg-6">
-				  		<div class="form-group">
-						    <label class="small" for="">End</label>
-						    <input class="form-control" type="text" name="eProduction" value="10/24/2020" />
-						</div>
-				  	</div>
+			  		<div class="col-3 text-muted">Location</div>
+			  		<div class="col">Region 4</div>
 			  	</div>
+			  	<div class="row">
+			  		<div class="col-3 text-muted">Date</div>
+			  		<div class="col">25 Oct 2020</div>
+			  	</div>
+			  	<div class="row">
+			  		<div class="col-3 text-muted">Production</div>
+			  		<div class="col">320000 / 320000 <span class="text-muted small">(100%)</span></div>
+			  	</div>
+			  	<div class="row">
+			  		<div class="col-3 text-muted">Performance</div>
+			  		<div class="col">80% <span class="text-danger">(-5% last report)</span></div>
+			  	</div>
+			  	<div class="row">
+			  		<div class="col-3 text-muted">Evidence</div>
+			  		<div class="col"><a href="">Photo 12.jpg</a></div>
+			  	</div>
+			  	<div class="row">
+			  		<div class="col-3 text-muted">Note</div>
+			  		<div class="col"><span class="text-muted" style="opacity: 0.5;">(no data)</span></div>
+			  	</div>
+			  	<div class="row">
+			  		<div class="col-3 text-muted">Issue</div>
+			  		<div class="col"><span class="text-muted" style="opacity: 0.5;">(no data)</span></div>
+			  	</div>
+			  	<hr>
 			  	<div class="form-group">
-				    <label class="small" for="">Amount of Production</label>
-				    <input type="number" class="form-control" id="">
+				  	<label class="small" for=""><i class="material-icons text-muted mr-1" style="font-size: 15px; opacity: 0.6;">mode_comment</i>Comment</label>
+				  	<textarea class="form-control"></textarea>
 				</div>
 			</div>
 	      	<div class="modal-footer justify-content-between py-1">
 	        	<button type="button" class="btn btn-secondary" data-dismiss="modal">Cancel</button>
-	        	<button type="button" class="btn btn-primary" data-dismiss="modal">Submit</button>
+	        	<div>
+		        	<button type="button" class="btn btn-danger" data-dismiss="modal">Return</button>
+		        	<button type="button" class="btn btn-success" data-dismiss="modal">Approve</button>
+		        </div>
 	     	</div>
     	</div>
   	</div>
@@ -397,12 +414,12 @@
 			  		<div class="col" style="font-size: 14px;">Region 1</div>
 			  	</div>
 			  	<div class="row">
-			  		<div class="col-3 text-muted" style="font-size: 14px;">Amount</div>
-			  		<div class="col" style="font-size: 14px;"><span class="text-muted">100000</span> / 120000 <span class="text-muted small">(-17%)</span></div>
+			  		<div class="col-3 text-muted" style="font-size: 14px;">Last Progress</div>
+			  		<div class="col" style="font-size: 14px;"><span class="text-muted">100000</span> / 120000 <span class="text-muted small">(83%)</span></div>
 			  	</div>
 			  	<div class="row">
-			  		<div class="col-3 text-muted" style="font-size: 14px;">Date</div>
-			  		<div class="col" style="font-size: 14px;">20 Oct 2020 - 24 Dec 2020</div>
+			  		<div class="col-3 text-muted" style="font-size: 14px;">Target Date</div>
+			  		<div class="col" style="font-size: 14px;">20 Oct 2020 - 24 Dec 2020 <span class="text-muted small">(60d left)</span></div>
 			  	</div>
 			  	<hr>
 			  	<div class="row">
@@ -466,6 +483,68 @@
   	</div>
 </div>
 
+<!-- Modal draft approval -->
+<div class="modal fade mt-5" id="mPreviewR" data-backdrop="static" data-keyboard="false" tabindex="-1" aria-labelledby="mPreviewRLabel" aria-hidden="true">
+  	<div class="modal-dialog modal-lg">
+    	<div class="modal-content">
+      		<div class="modal-header bg-nk py-2">
+        		<h5 class="modal-title font-weight-light" style="font-size: 16px;" id="mPreviewRLabel">Report : Region 3 (22 Oct 2020)</h5>
+       			<i class="material-icons text-white cur-pointer my-auto" data-dismiss="modal">close</i>
+      		</div>
+	      	<div class="modal-body">
+			  	<div class="row">
+			  		<div class="col-3 text-muted">Location</div>
+			  		<div class="col">Region 3</div>
+			  	</div>
+			  	<div class="row">
+			  		<div class="col-3 text-muted">Date</div>
+			  		<div class="col">22 Oct 2020</div>
+			  	</div>
+			  	<div class="row">
+			  		<div class="col-3 text-muted">Production</div>
+			  		<div class="col">200000 / 200000 <span class="text-muted small">(100%)</span></div>
+			  	</div>
+			  	<div class="row">
+			  		<div class="col-3 text-muted">Performance</div>
+			  		<div class="col">80% <span class="text-danger">(-5% last report)</span></div>
+			  	</div>
+			  	<div class="row">
+			  		<div class="col-3 text-muted">Evidence</div>
+			  		<div class="col"><a href="">Berkas Penyerahan.zip</a></div>
+			  	</div>
+			  	<div class="row">
+			  		<div class="col-3 text-muted">Note</div>
+			  		<div class="col">"Sudah serah terima"</div>
+			  	</div>
+			  	<div class="row">
+			  		<div class="col-3 text-muted">Issue</div>
+			  		<div class="col"><span class="text-muted" style="opacity: 0.5;">(no data)</span></div>
+			  	</div>
+			  	<div class="row">
+			  		<div class="col-3 text-muted">Comment</div>
+			  		<div class="col">
+			  			<div>Pak Damar "Laporan sudah lengkap"</div>
+			  		</div>
+			  	</div>
+			</div>
+	      	<div class="modal-footer justify-content-between py-1">
+	        	<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+	        	<div class="btn-group" role="group" aria-label="Button group with nested dropdown">
+				  <button type="button" class="btn btn-outline-success py-0"><i class="material-icons mr-lg-2">insert_drive_file</i>Export</button>
+
+				  <div class="btn-group " role="group">
+				    <button id="btnGroupDrop1" type="button" class="btn btn-outline-success dropdown-toggle pl-2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+				    </button>
+				    <div class="dropdown-menu dropdown-menu-right" aria-labelledby="btnGroupDrop1">
+				      <a class="dropdown-item text-muted" href="#"><i class="material-icons mr-3">print</i>Print</a>
+				    </div>
+				  </div>
+				</div>
+	     	</div>
+    	</div>
+  	</div>
+</div>
+
 
 
 
@@ -489,7 +568,8 @@
 
         $('#tDraftB tbody').on( 'click', 'tr', function () {
        
-        alert(table.row( this ).data()[0]);
+        //alert(table.row( this ).data()[0]);
+        $('#mDraftA').modal('show');
 
     } );
     });
@@ -509,8 +589,8 @@
       
       $('#tReport tbody').on( 'click', 'tr', function () {
        
-        alert(table.row( this ).data()[0]);
-
+        //alert(table.row( this ).data()[0]);
+        $('#mPreviewR').modal('show');
     } );
     });
 

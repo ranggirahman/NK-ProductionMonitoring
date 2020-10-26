@@ -38,7 +38,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                 <a href="" class="bg-transparent text-white d-flex mr-lg-4" role="button"><img class="my-auto mr-2" style="max-height: 28px;" src="<?= base_url(); ?>assets/img/logo-color.png"></a>
                 <div class="d-flex" style="margin-bottom: -14px;">
                     <a href="<?=base_url();?>dashboard" class="d-flex <?php if($title == 'Dashboard'){ echo 'active-nk border-bottom border-nk';}else{ echo 'text-muted border-bottom border-white'; } ?> pb-2 px-3 mr-2 mr-lg-3" style="border-width: thick !important;"><i class="material-icons my-auto mr-lg-2" style="opacity: 0.5;">donut_small</i><div class="font-weight-light d-none d-sm-block" style="font-size: 20px;">Dashboard</div></a>
-                    <a href="<?=base_url();?>report" class="d-flex <?php if($title == 'Report'){ echo 'active-nk border-bottom border-nk';}else{ echo 'text-muted border-bottom border-white'; } ?> pb-2 px-3 px-lg-4" style="border-width: thick !important;"><i class="material-icons my-auto mr-lg-2" style="opacity: 0.5;">assignment</i><div class="font-weight-light d-none d-sm-block" style="font-size: 20px;">Report</div></a>
+                    <a href="<?=base_url();?>report" class="d-flex <?php if($title == 'Report'){ echo 'active-nk border-bottom border-nk';}else{ echo 'text-muted border-bottom border-white'; } ?> pb-2 px-3 px-lg-4" style="border-width: thick !important;"><i class="material-icons my-auto mr-lg-2" style="opacity: 0.5;">text_snippet</i><div class="font-weight-light d-none d-sm-block" style="font-size: 20px;">Report</div></a>
                 </div>
             </div>
             <div>
@@ -48,43 +48,43 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                         <span class="badge badge-danger" style="font-size: 8px; position: absolute; top: 8px; right: 5px;">2</span>
                     </button>
                     <div class="dropdown-menu dropdown-menu-right border-0 py-0">
-                        <div class="card" style="width: 280px;">
+                        <div class="card shadow-sm" style="width: 280px;">
                             <div class="card-header text-muted py-1 px-2">
                                 <div class="small my-auto">Notification</div>
                             </div>
                             <div class="card-body bg-transparent p-0">
                                 <a href="" class="border rounded text-dark d-flex p-2 m-1">
-                                    <div class="mr-2 my-auto" style="position: relative;"><i class="material-icons text-muted">assignment</i><span class="text-danger" style="font-size: 40px; position: absolute; top: -30px; right: -4px; -webkit-text-stroke: 2px white;">•</span></div>
+                                    <div class="mr-2 my-auto" style="position: relative;"><i class="material-icons text-muted">assignment_late</i><span class="text-danger" style="font-size: 40px; position: absolute; top: -30px; right: -4px; -webkit-text-stroke: 2px white;">•</span></div>
                                     <div>
-                                        <div style="font-size: 13px;">Report 20 Oct 2020 Approved</div>
-                                        <div class="text-muted" style="font-size: 10px;">3d ago</div>
+                                        <div style="font-size: 13px;">Report Region 4 need action</div>
+                                        <div class="text-muted" style="font-size: 10px;">20h ago</div>
                                     </div>
                                 </a>
                                 <a href="" class="border rounded text-dark d-flex p-2 m-1">
-                                    <div class="mr-2 my-auto" style="position: relative;"><i class="material-icons text-muted">assignment</i><span class="text-danger" style="font-size: 40px; position: absolute; top: -30px; right: -4px; -webkit-text-stroke: 2px white;">•</span></div>
+                                    <div class="mr-2 my-auto" style="position: relative;"><i class="material-icons text-muted">assignment_returned</i><span class="text-danger" style="font-size: 40px; position: absolute; top: -30px; right: -4px; -webkit-text-stroke: 2px white;">•</span></div>
                                     <div>
-                                        <div style="font-size: 13px;">Report 19 Oct 2020 Approved</div>
-                                        <div class="text-muted" style="font-size: 10px;">4d ago</div>
+                                        <div style="font-size: 13px;">Report Region 1 Returned</div>
+                                        <div class="text-muted" style="font-size: 10px;">1d ago</div>
                                     </div>
                                 </a>
                                 <a href="" class="border rounded text-muted d-flex p-2 m-1">
-                                    <div class="mr-2 my-auto"><i class="material-icons text-muted" style="opacity: 0.6;">assignment</i></div>
+                                    <div class="mr-2 my-auto"><i class="material-icons text-muted" style="opacity: 0.6;">assignment_turned_in</i></div>
                                     <div>
-                                        <div style="font-size: 13px;">Report 24 Sep 2020 Approved</div>
+                                        <div style="font-size: 13px;">Report Region 3 Approved</div>
                                         <div class="text-muted" style="font-size: 10px;">20d ago</div>
                                     </div>
                                 </a>
                                 <a href="" class="border rounded text-muted d-flex p-2 m-1">
-                                    <div class="mr-2 my-auto"><i class="material-icons text-muted" style="opacity: 0.6;">assignment</i></div>
+                                    <div class="mr-2 my-auto"><i class="material-icons text-muted" style="opacity: 0.6;">assignment_turned_in</i></div>
                                     <div>
-                                        <div style="font-size: 13px;">Report 1 Sep 2020 Approved</div>
+                                        <div style="font-size: 13px;">Report Region 5 Approved</div>
                                         <div class="text-muted" style="font-size: 10px;">30d ago</div>
                                     </div>
                                 </a>
                                 <a href="" class="border rounded text-muted d-flex p-2 m-1">
-                                    <div class="mr-2 my-auto"><i class="material-icons text-muted" style="opacity: 0.6;">assignment</i></div>
+                                    <div class="mr-2 my-auto"><i class="material-icons text-muted" style="opacity: 0.6;">assignment_turned_in</i></div>
                                     <div>
-                                        <div style="font-size: 13px;">Report 19 Oct 2019 Approved</div>
+                                        <div style="font-size: 13px;">Production Region 2 Approved</div>
                                         <div class="text-muted" style="font-size: 10px;">1y ago</div>
                                     </div>
                                 </a>
@@ -97,10 +97,10 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                         <img id="my_photo" class="rounded-circle border border-light mr-lg-2" style="object-fit: cover;height: 30px;width: 30px;" src="<?= base_url(); ?>assets/img/profile.jpg"><div class="font-weight-light text-muted my-auto"><span class="d-none d-sm-block">Ranggi Rahman</span></div>
                     </button>
                     <div class="dropdown-menu dropdown-menu-right border-0 py-0">
-                        <div class="card" style="width: 170px;">
+                        <div class="card shadow-sm" style="width: 170px;">
                             <div class="card-body bg-transparent py-2">
                                 <a data-toggle="modal" data-target="#mHelp" class="text-muted d-block cur-pointer py-1" style="font-size: 16px;"><i class="material-icons text-muted mr-2" style="font-size: 16px;">help</i>Help</a>
-                                <a href="<?=base_url();?>" class="text-muted d-block py-1" style="font-size: 16px;"><i class="material-icons text-muted mr-2" style="font-size: 16px;">exit_to_app</i>Sign out</a>
+                                <a data-toggle="modal" data-target="#mSignO" class="text-muted d-block cur-pointer py-1" style="font-size: 16px;"><i class="material-icons text-muted mr-2" style="font-size: 16px;">exit_to_app</i>Sign out</a>
                             </div>
                         </div>
                     </div>

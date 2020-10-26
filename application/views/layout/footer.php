@@ -2,7 +2,7 @@
 </body>
 </html>
 
-<!-- Modal production target -->
+<!-- Modal Help -->
 <div class="modal fade mt-5" id="mHelp" data-backdrop="static" data-keyboard="false" tabindex="-1" aria-labelledby="mHelpLabel" aria-hidden="true">
   	<div class="modal-dialog">
     	<div class="modal-content">
@@ -24,7 +24,7 @@
 				  	</div>
 			  	</div>
 			  	<div class="card">
-			  		<div class="card-header justify-content-between d-flex text-muted bg-white cur-pointer cur-noselect p-2" data-toggle="collapse" href="#cProblemR">
+			  		<div class="card-body justify-content-between d-flex text-muted bg-white cur-pointer cur-noselect p-2" data-toggle="collapse" href="#cProblemR">
 			  			<div class="d-flex">
 					  		<i class="material-icons mr-3 ml-2 my-auto" style="opacity: 0.5; font-size: 2rem;">contact_support</i>
 					  		<div>
@@ -33,7 +33,7 @@
 					  		</div>
 					  	</div>
 					  	<div class="my-auto">
-					  		<i class="material-icons mx-2">expand_more</i>
+					  		<i class="material-icons mx-2" id="colIndicator">expand_more</i>
 					  	</div>
 			  		</div>
 			  		<div class="collapse" id="cProblemR">
@@ -60,9 +60,7 @@
 								  <label class="custom-file-label" for="">Choose file</label>
 								</div>
 							</div>
-				  		</div>
-				  		<div class="card-footer bg-white text-right py-2">
-				  			<button class="btn btn-primary" data-dismiss="modal">Submit</button>
+				  			<div class="text-right"><button class="btn btn-primary" data-dismiss="modal">Submit</button></div>
 				  		</div>
 				  	</div>
 			  	</div>
@@ -71,7 +69,27 @@
   	</div>
 </div>
 
+<!-- Modal Sign Out -->
+<div class="modal fade mt-5" id="mSignO" data-keyboard="false" tabindex="-1" aria-labelledby="mSignOLabel" aria-hidden="true">
+  	<div class="modal-dialog modal-sm">
+    	<div class="modal-content">
+	      	<div class="modal-body">
+  				<div class="font-weight-light text-black-50" style="font-size: 16px;" id="mSignOLabel">Are you sure ?</div>
+  				<div class="my-2">2 Report need your action</div>
+  				<div class="text-right mt-3">
+  					<button class="btn btn-sm btn-primary" data-dismiss="modal">Cancel</button>
+  					<a href="<?base_url()?>login" class="btn btn-sm btn-outline-danger"><i class="material-icons mr-2" style="font-size: 18px;">exit_to_app</i>Sign Out</a>
+  				</div>
+			</div>
+    	</div>
+  	</div>
+</div>
+
 <script type="text/javascript">
+	// collapse report problem
+
+
+
 	// enable tooltip
 	$(function () {
 	  $('[data-toggle="tooltip"]').tooltip()

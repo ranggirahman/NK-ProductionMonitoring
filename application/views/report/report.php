@@ -23,6 +23,7 @@
                         <thead>
                             <tr>
                                 <th style="border-top: none;">No</th>
+                                <th style="border-top: none;"></th>
                                 <th style="border-top: none;">Date</th>
                                 <th style="border-top: none;">Summary</th>
                                 <th style="border-top: none;"><i class="material-icons">assignment</i></th>
@@ -32,6 +33,7 @@
                         <tbody>
                         	<tr>
                                 <td>1</td>
+                                <td><i class="material-icons text-danger" style="opacity: 0.8; font-size: 14px;">fiber_manual_record</i></td>
                                 <td>25 Oct 2020</td>
                                 <td class="small">
                                 	<div><i class="material-icons mr-1" style="font-size: 12px;">place</i>Region 4</div>
@@ -42,6 +44,7 @@
                             </tr>
                             <tr>
                                 <td>2</td>
+                                <td><i class="material-icons text-danger" style="opacity: 0.8; font-size: 14px;">fiber_manual_record</i></td>
                                 <td>25 Oct 2020</td>
                                 <td class="small">
                                 	<div><i class="material-icons mr-1" style="font-size: 12px;">place</i>Region 1</div>
@@ -52,6 +55,7 @@
                             </tr>
                             <tr>
                                 <td>3</td>
+                                <td></td>
                                 <td>22 Oct 2020</td>
                                 <td class="small">
                                 	<div><i class="material-icons mr-1" style="font-size: 12px;">place</i>Region 3</div>
@@ -62,6 +66,7 @@
                             </tr>
                             <tr>
                                 <td>4</td>
+                                <td></td>
                                 <td>22 Oct 2020</td>
                                 <td class="small">
                                 	<div><i class="material-icons mr-1" style="font-size: 12px;">place</i>Region 5</div>
@@ -72,6 +77,7 @@
                             </tr>
                             <tr>
                                 <td>5</td>
+                                <td></td>
                                 <td>1 Jan 2020</td>
                                 <td class="small">
                                 	<div><i class="material-icons mr-1" style="font-size: 12px;">place</i>Region 2</div>

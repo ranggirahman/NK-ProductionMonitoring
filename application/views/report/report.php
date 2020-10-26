@@ -11,36 +11,117 @@
 <div class="container-fluid mt-5 pt-4">
     <div class="row">
         <div class="col-12 col-lg-4 pr-lg-0">
-        	<div class="card mb-3">
+        	<div class="card shadow-sm mb-3">
         		<div class="card-header bg-white py-2">
         			<div class="row">
-        				<div class="col my-auto"><i class="material-icons text-muted mr-2" style="opacity: 0.6;">inbox</i>Approval</div>
-        				<div class="col"><input class="form-control" type="" name=""></div>
+        				<div class="col-5 my-auto"><i class="material-icons text-muted mr-2" style="opacity: 0.6;">inbox</i>Draft Box</div>
+        				<div class="col-7"><input class="form-control" type="" name="" placeholder="Search"></div>
         			</div>
         		</div>
-        		<div class="card-body shadow-sm">
-        			
+        		<div class="card-body py-0">
+        			<table id="tDraftB" class="display table table-sm table-hover" cellspacing="0" width="100%">
+                        <thead>
+                            <tr>
+                                <th style="border-top: none;">No</th>
+                                <th style="border-top: none;">Date</th>
+                                <th style="border-top: none;">Summary</th>
+                                <th style="border-top: none;"><i class="material-icons">assignment</i></th>
+                            </tr>
+                        </thead>
+                 
+                        <tbody>
+                        	<tr>
+                                <td>1</td>
+                                <td>25 Oct 2020</td>
+                                <td class="small">
+                                	<div><i class="material-icons mr-1" style="font-size: 12px;">place</i>Region 4</div>
+                                	<div><i class="material-icons mr-1" style="font-size: 12px;">widgets</i><span class="text-muted">320000</span>/320000 (+20000)</div>
+                                	<div><i class="material-icons mr-1" style="font-size: 12px;">speed</i>80% <span class="text-danger">(-5%)</span></div>
+                                </td>
+                                <td style="vertical-align: middle;"><i class="material-icons text-primary cur-noselect" data-toggle="tooltip" data-placement="top" title="Need action">assignment_late</i></td>
+                            </tr>
+                            <tr>
+                                <td>2</td>
+                                <td>25 Oct 2020</td>
+                                <td class="small">
+                                	<div><i class="material-icons mr-1" style="font-size: 12px;">place</i>Region 1</div>
+                                	<div><i class="material-icons mr-1" style="font-size: 12px;">widgets</i><span class="text-muted">120000</span>/120000 (+20000)</div>
+                                	<div><i class="material-icons mr-1" style="font-size: 12px;">speed</i>100% <span class="text-muted">(-)</span></div>
+                                </td>
+                                <td style="vertical-align: middle;"><i class="material-icons text-danger cur-noselect" data-toggle="tooltip" data-placement="top" title="Returned">assignment_returned</i></td>
+                            </tr>
+                            <tr>
+                                <td>3</td>
+                                <td>22 Oct 2020</td>
+                                <td class="small">
+                                	<div><i class="material-icons mr-1" style="font-size: 12px;">place</i>Region 3</div>
+                                	<div><i class="material-icons mr-1" style="font-size: 12px;">widgets</i><span class="text-muted">200000</span>/200000 (+60000)</div>
+                                	<div><i class="material-icons mr-1" style="font-size: 12px;">speed</i>100% <span class="text-success">(+2%)</span></div>
+                                </td>
+                                <td style="vertical-align: middle;"><i class="material-icons text-success cur-noselect" data-toggle="tooltip" data-placement="top" title="Approved">assignment_turned_in</i></td>
+                            </tr>
+                            <tr>
+                                <td>4</td>
+                                <td>22 Oct 2020</td>
+                                <td class="small">
+                                	<div><i class="material-icons mr-1" style="font-size: 12px;">place</i>Region 5</div>
+                                	<div><i class="material-icons mr-1" style="font-size: 12px;">widgets</i><span class="text-muted">300000</span>/340000 (+100000)</div>
+                                	<div><i class="material-icons mr-1" style="font-size: 12px;">speed</i>100% <span class="text-success">(+5%)</span></div>
+                                </td>
+                                <td style="vertical-align: middle;"><i class="material-icons text-success cur-noselect" data-toggle="tooltip" data-placement="top" title="Approved">assignment_turned_in</i></td>
+                            </tr>
+                            <tr>
+                                <td>5</td>
+                                <td>1 Jan 2020</td>
+                                <td class="small">
+                                	<div><i class="material-icons mr-1" style="font-size: 12px;">place</i>Region 2</div>
+                                	<div><i class="material-icons mr-1" style="font-size: 12px;">widgets</i>195000</div>
+                                	<div><i class="material-icons mr-1" style="font-size: 12px;">date_range</i>30 Mar 2020 - 20 Dec 2020</div>
+                                </td>
+                                <td style="vertical-align: middle;"><i class="material-icons text-success cur-noselect" data-toggle="tooltip" data-placement="top" title="Approved">assignment_turned_in</i></td>
+                            </tr>
+                        </tbody>
+                    </table>
+        		</div>
+        		<div class="card-footer bg-white pt-2 pb-0">
+        			<nav aria-label="Page navigation">
+					  <ul class="pagination justify-content-end mb-2">
+					    <li class="page-item">
+					      <a class="page-link" href="#" aria-label="Previous">
+					        <i class="material-icons" style="font-size: 18px;">chevron_left</i>
+					      </a>
+					    </li>
+					    <li class="page-item active" aria-current="page"><a class="page-link" href="#">1</a></li>
+					    <li class="page-item"><a class="page-link" href="#">2</a></li>
+					    <li class="page-item"><a class="page-link" href="#">3</a></li>
+					    <li class="page-item">
+					      <a class="page-link" href="#" aria-label="Next">
+					        <i class="material-icons" style="font-size: 18px;">chevron_right</i>
+					      </a>
+					    </li>
+					  </ul>
+					</nav>
         		</div>
         	</div>
-        	<div class="card mb-3">
-        		<div class="card-body shadow-sm">
+        	<div class="card shadow-sm  mb-3">
+        		<div class="card-body p-0">
         			<div class="justify-content-between d-flex">
-        				<div>
+        				<div class="my-auto pl-3">
         					<div>Production Target</div>
         					<div class="small text-muted">On progress until 23 Dec 2020</div>
         				</div>
-        				<div><button class="btn btn-primary" data-toggle="modal" data-target="#mProductionT"><i class="material-icons">post_add</i></button></div>
+        				<div class="cur-pointer my-auto bg-nk rounded-right p-3" data-toggle="modal" data-target="#mProductionT"><i class="material-icons">post_add</i></div>
         			</div>
         		</div>
         	</div>
-        	<div class="card mb-3">
-        		<div class="card-body shadow-sm">
+        	<div class="card shadow-sm  mb-3">
+        		<div class="card-body p-0">
         			<div class="justify-content-between d-flex">
-        				<div>
+        				<div class="my-auto pl-3">
         					<div>Daily Report</div>
         					<div class="small text-muted">Your report will outdated in 2 days</div>
         				</div>
-        				<div><button class="btn btn-primary" data-toggle="modal" data-target="#mDailyR"><i class="material-icons">add</i></button></div>
+        				<div class="cur-pointer my-auto bg-nk rounded-right p-3" data-toggle="modal" data-target="#mDailyR"><i class="material-icons">add</i></div>
         			</div>
         		</div>
         	</div>
@@ -60,7 +141,7 @@
 	                          <option>Region 5</option>
 	                        </select>
 	                    </div>
-	                    <div class="col-12 col-lg-5 pl-lg-0 mb-2">
+	                    <div class="col-12 col-lg-4 pl-lg-0 mb-2">
 	                    	<div class="rounded text-muted" id="reportrange" style="background: #fff; cursor: pointer; padding: 5px 10px; border: 1px solid #ccc; width: 100%">
 							    <i class="material-icons mr-2">date_range</i>
 							    <span class="text-dark"></span></i>
@@ -82,13 +163,17 @@
                 	</div>
                 </div>
                 <div class="card-body px-1 px-lg-4 py-3">
-                    <table id="example" class="display table" cellspacing="0" width="100%">
+                    <table id="tReport" class="display table table-sm table-responsive-sm text-nowrap" cellspacing="0" width="100%">
                         <thead>
                             <tr>
                                 <th>No</th>
                                 <th>Date</th>
                                 <th>Location</th>
+                                <th>Progress</th>
                                 <th>Production</th>
+                                <th>Perf.</th>
+                                <th>Note</th>
+                                <th><i class="material-icons">info</i></th>
                             </tr>
                         </thead>
                  
@@ -97,61 +182,101 @@
                                 <td>1</td>
                                 <td>22 Oct 2020</td>
                                 <td>Region 3</td>
-                                <td>200000</td>
+                                <td class="text-right">200000 / 200000</td>
+                                <td class="text-right"><span class="text-muted">+</span>60000</td>
+                                <td>100<span class="text-muted">%</span></td>
+                                <td>Sudah serah terima</td>
+                                <td><a href=""><i class="material-icons text-muted mr-2">attach_file</i></a><i class="material-icons text-success cur-pointer" data-toggle="tooltip" data-placement="top" title="Delivered">local_shipping</i></td>
                             </tr>
                             <tr>
                                 <td>2</td>
                                 <td>22 Oct 2020</td>
                                 <td>Region 5</td>
-                                <td>300000</td>
+                                <td class="text-right"><span class="text-muted">300000</span> / 340000</td>
+                                <td class="text-right"><span class="text-muted">+</span>100000</td>
+                                <td>100<span class="text-muted">%</span></td>
+                                <td></td>
+                                <td><a href=""><i class="material-icons text-muted mr-2">attach_file</i></a></td>
                             </tr>
                             <tr>
                                 <td>3</td>
                                 <td>21 Oct 2020</td>
                                 <td>Region 2</td>
-                                <td>150000</td>
+                                <td class="text-right"><span class="text-muted">150000</span> / 195000</td>
+                                <td class="text-right"><span class="text-muted">+</span>30000</td>
+                                <td>96<span class="text-muted">%</span></td>
+                                <td></td>
+                                <td><a href=""><i class="material-icons text-muted mr-2">attach_file</i></a></td>
                             </tr>
                             <tr>
                                 <td>4</td>
                                 <td>21 Oct 2020</td>
                                 <td>Region 4</td>
-                                <td>300000</td>
+                                <td class="text-right"><span class="text-muted">300000</span> / 320000</td>
+                                <td class="text-right"><span class="text-muted">+</span>20000</td>
+                                <td>80<span class="text-muted">%</span></td>
+                                <td>Produksi terhambat</td>
+                                <td><a href=""><i class="material-icons text-muted mr-2">attach_file</i></a><i class="material-icons text-danger cur-pointer" data-toggle="tooltip" data-placement="top" title="Have Issue">warning</i></td>
                             </tr>
                             <tr>
                                 <td>5</td>
                                 <td>20 Oct 2020</td>
                                 <td>Region 1</td>
-                                <td>100000</td>
+                                <td class="text-right"><span class="text-muted">100000</span> / 120000</td>
+                                <td class="text-right"><span class="text-muted">+</span>60000</td>
+                                <td>100<span class="text-muted">%</span></td>
+                                <td></td>
+                                <td><a href=""><i class="material-icons text-muted mr-2">attach_file</i></a></td>
                             </tr>
                             <tr>
                                 <td>6</td>
                                 <td>19 Oct 2020</td>
                                 <td>Region 3</td>
-                                <td>140000</td>
+                                <td class="text-right"><span class="text-muted">140000</span> / 200000</td>
+                                <td class="text-right"><span class="text-muted">+</span>20000</td>
+                                <td>98<span class="text-muted">%</span></td>
+                                <td></td>
+                                <td><a href=""><i class="material-icons text-muted mr-2">attach_file</i></a></td>
                             </tr>
                             <tr>
                                 <td>7</td>
                                 <td>19 Oct 2020</td>
                                 <td>Region 5</td>
-                                <td>200000</td>
+                                <td class="text-right"><span class="text-muted">200000</span> / 340000</td>
+                                <td class="text-right"><span class="text-muted">+</span>40000</td>
+                                <td>95<span class="text-muted">%</span></td>
+                                <td></td>
+                                <td><a href=""><i class="material-icons text-muted mr-2">attach_file</i></a></td>
                             </tr>
                             <tr>
                                 <td>8</td>
                                 <td>19 Oct 2020</td>
                                 <td>Region 2</td>
-                                <td>120000</td>
+                                <td class="text-right"><span class="text-muted">120000</span> / 195000</td>
+                                <td class="text-right"><span class="text-muted">+</span>25000</td>
+                                <td>98<span class="text-muted">%</span></td>
+                                <td></td>
+                                <td><a href=""><i class="material-icons text-muted mr-2">attach_file</i></a></td>
                             </tr>
                             <tr>
                                 <td>9</td>
                                 <td>19 Oct 2020</td>
                                 <td>Region 4</td>
-                                <td>280000</td>
+                                <td class="text-right"><span class="text-muted">280000</span> / 320000</td>
+                                <td class="text-right"><span class="text-muted">+</span>80000</td>
+                                <td>85<span class="text-muted">%</span></td>
+                                <td></td>
+                                <td><a href=""><i class="material-icons text-muted mr-2">attach_file</i></a></td>
                             </tr>
                             <tr>
                                 <td>10</td>
                                 <td>19 Oct 2020</td>
                                 <td>Region 1</td>
-                                <td>60000</td>
+                                <td class="text-right"><span class="text-muted">60000</span> / 120000</td>
+                                <td class="text-right"><span class="text-muted">+</span>60000</td>
+                                <td>95<span class="text-muted">%</span></td>
+                                <td></td>
+                                <td><a href=""><i class="material-icons text-muted mr-2">attach_file</i></a></td>
                             </tr>
                         </tbody>
                     </table>
@@ -236,6 +361,13 @@
 				    <label class="small" for=""><i class="material-icons text-muted mr-1" style="font-size: 13px; opacity: 0.5;">widgets</i>Target Production</label>
 				    <input type="number" class="form-control" id="">
 				</div>
+				<div class="form-group">
+				    <label class="small" for=""><i class="material-icons text-muted mr-1" style="font-size: 15px; opacity: 0.6;">description</i>Document</label>
+				    <div class="custom-file">
+					  <input type="file" class="custom-file-input" id="customFile">
+					  <label class="custom-file-label" for="customFile">Choose file</label>
+					</div>
+				</div>
 			</div>
 	      	<div class="modal-footer justify-content-between py-1">
 	        	<button type="button" class="btn btn-secondary" data-dismiss="modal">Cancel</button>
@@ -256,15 +388,15 @@
 	      	<div class="modal-body">
 			  	<div class="row">
 			  		<div class="col-3 text-muted" style="font-size: 14px;">Location</div>
-			  		<div class="col-8" style="font-size: 14px;">Region 1</div>
+			  		<div class="col" style="font-size: 14px;">Region 1</div>
 			  	</div>
 			  	<div class="row">
 			  		<div class="col-3 text-muted" style="font-size: 14px;">Amount</div>
-			  		<div class="col-8" style="font-size: 14px;"><span class="text-muted">100000</span> / 120000 <span class="text-muted small">(-17%)</span></div>
+			  		<div class="col" style="font-size: 14px;"><span class="text-muted">100000</span> / 120000 <span class="text-muted small">(-17%)</span></div>
 			  	</div>
 			  	<div class="row">
-			  		<div class="col-3 text-muted" style="font-size: 14px;">End Date</div>
-			  		<div class="col-8" style="font-size: 14px;">24 Dec 2020</div>
+			  		<div class="col-3 text-muted" style="font-size: 14px;">Date</div>
+			  		<div class="col" style="font-size: 14px;">20 Oct 2020 - 24 Dec 2020</div>
 			  	</div>
 			  	<hr>
 			  	<div class="row">
@@ -289,10 +421,10 @@
 			  			<div class="form-group">
 					    	<label class="small" for=""><i class="material-icons text-muted mr-1" style="font-size: 13px; opacity: 0.5;">widgets</i>Amount</label>
 					    	<div class="input-group border rounded">
-							  <div class="input-group-prepend cur-default">
+							  <div class="input-group-prepend cur-noselect">
 							    <span class="input-group-text bg-white border-0">+</span>
 							  </div>
-							  <input type="text" class="form-control border-0" aria-label="Amount (to the nearest dollar)">
+							  <input type="number" class="form-control border-0" aria-label="Amount (to the nearest dollar)">
 							  <div class="input-group-append cur-pointer border-0">
 							    <span class="input-group-text bg-white border-0 px-2"><i class="material-icons" data-html="true" data-toggle="tooltip" data-placement="top" title="<div class='text-right'>100000<br/><b>400</b><br/>+ ______________<br/>100400</div>">info</i></span>
 							  </div>
@@ -301,8 +433,13 @@
 			  		</div>
 				  	<div class="col-12 col-lg-3 pl-lg-0">
 				  		<div class="form-group">
-						    <label class="small" for="">Performance (%)</label>
-						    <input type="number" class="form-control" min="0" max="100" id="">
+						    <label class="small" for=""><i class="material-icons text-muted mr-1" style="font-size: 13px; opacity: 0.5;">speed</i>Performance</label>
+						    <div class="input-group border rounded">
+							  <input type="number" class="form-control border-0" aria-label="Amount (to the nearest dollar)">
+							  <div class="input-group-append cur-pointer border-0">
+							    <span class="input-group-text bg-white border-0">%</span>
+							  </div>
+							</div>
 						</div>
 				  	</div>
 			  	</div>
@@ -328,9 +465,32 @@
 
 
 <script>
+	// datatables draft box
+    $(document).ready(function() {
+        var table = $('#tDraftB').DataTable({ 
+            searching: false, 
+            paging: false, 
+            info: false,
+            select: false,
+            "columnDefs": [{
+                className: "Name", 
+                "targets":[0],
+                "visible": false,
+                "searchable":false,
+                "searching": false
+            }]
+        });//End of create main table
+
+        $('#tDraftB tbody').on( 'click', 'tr', function () {
+       
+        alert(table.row( this ).data()[0]);
+
+    } );
+    });
+
     // datatables
     $(document).ready(function() {
-      var table = $('#example').DataTable({ 
+      var table = $('#tReport').DataTable({ 
             select: false,
             "columnDefs": [{
                 className: "Name", 
@@ -341,7 +501,7 @@
         });//End of create main table
 
       
-      $('#example tbody').on( 'click', 'tr', function () {
+      $('#tReport tbody').on( 'click', 'tr', function () {
        
         alert(table.row( this ).data()[0]);
 

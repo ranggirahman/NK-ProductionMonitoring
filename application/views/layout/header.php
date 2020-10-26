@@ -49,41 +49,40 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                     </button>
                     <div class="dropdown-menu dropdown-menu-right border-0 py-0">
                         <div class="card" style="width: 280px;">
-                            <div class="card-header justify-content-between d-flex text-muted py-1 px-2">
+                            <div class="card-header text-muted py-1 px-2">
                                 <div class="small my-auto">Notification</div>
-                                <div class="cur-pointer"><i class="material-icons">clear_all</i></div>
                             </div>
                             <div class="card-body bg-transparent p-0">
                                 <a href="" class="border rounded text-dark d-flex p-2 m-1">
-                                    <div class="mr-3 my-auto" style="position: relative;"><i class="material-icons text-muted">assignment</i><span class="text-danger" style="font-size: 40px; position: absolute; top: -30px; right: -4px; -webkit-text-stroke: 2px white;">•</span></div>
+                                    <div class="mr-2 my-auto" style="position: relative;"><i class="material-icons text-muted">assignment</i><span class="text-danger" style="font-size: 40px; position: absolute; top: -30px; right: -4px; -webkit-text-stroke: 2px white;">•</span></div>
                                     <div>
                                         <div style="font-size: 13px;">Report 20 Oct 2020 Approved</div>
                                         <div class="text-muted" style="font-size: 10px;">3d ago</div>
                                     </div>
                                 </a>
                                 <a href="" class="border rounded text-dark d-flex p-2 m-1">
-                                    <div class="mr-3 my-auto" style="position: relative;"><i class="material-icons text-muted">assignment</i><span class="text-danger" style="font-size: 40px; position: absolute; top: -30px; right: -4px; -webkit-text-stroke: 2px white;">•</span></div>
+                                    <div class="mr-2 my-auto" style="position: relative;"><i class="material-icons text-muted">assignment</i><span class="text-danger" style="font-size: 40px; position: absolute; top: -30px; right: -4px; -webkit-text-stroke: 2px white;">•</span></div>
                                     <div>
                                         <div style="font-size: 13px;">Report 19 Oct 2020 Approved</div>
                                         <div class="text-muted" style="font-size: 10px;">4d ago</div>
                                     </div>
                                 </a>
                                 <a href="" class="border rounded text-muted d-flex p-2 m-1">
-                                    <div class="mr-3 my-auto"><i class="material-icons text-muted" style="opacity: 0.6;">assignment</i></div>
+                                    <div class="mr-2 my-auto"><i class="material-icons text-muted" style="opacity: 0.6;">assignment</i></div>
                                     <div>
                                         <div style="font-size: 13px;">Report 24 Sep 2020 Approved</div>
                                         <div class="text-muted" style="font-size: 10px;">20d ago</div>
                                     </div>
                                 </a>
                                 <a href="" class="border rounded text-muted d-flex p-2 m-1">
-                                    <div class="mr-3 my-auto"><i class="material-icons text-muted" style="opacity: 0.6;">assignment</i></div>
+                                    <div class="mr-2 my-auto"><i class="material-icons text-muted" style="opacity: 0.6;">assignment</i></div>
                                     <div>
                                         <div style="font-size: 13px;">Report 1 Sep 2020 Approved</div>
                                         <div class="text-muted" style="font-size: 10px;">30d ago</div>
                                     </div>
                                 </a>
                                 <a href="" class="border rounded text-muted d-flex p-2 m-1">
-                                    <div class="mr-3 my-auto"><i class="material-icons text-muted" style="opacity: 0.6;">assignment</i></div>
+                                    <div class="mr-2 my-auto"><i class="material-icons text-muted" style="opacity: 0.6;">assignment</i></div>
                                     <div>
                                         <div style="font-size: 13px;">Report 19 Oct 2019 Approved</div>
                                         <div class="text-muted" style="font-size: 10px;">1y ago</div>
@@ -100,7 +99,8 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                     <div class="dropdown-menu dropdown-menu-right border-0 py-0">
                         <div class="card" style="width: 170px;">
                             <div class="card-body bg-transparent py-2">
-                                <a href="<?=base_url();?>" class="text-muted d-block py-1" style="font-size: 16px;"><i class="material-icons text-muted mr-2" style="font-size: 16px;">exit_to_app</i>Signout</a>
+                                <a data-toggle="modal" data-target="#mHelp" class="text-muted d-block cur-pointer py-1" style="font-size: 16px;"><i class="material-icons text-muted mr-2" style="font-size: 16px;">help</i>Help</a>
+                                <a href="<?=base_url();?>" class="text-muted d-block py-1" style="font-size: 16px;"><i class="material-icons text-muted mr-2" style="font-size: 16px;">exit_to_app</i>Sign out</a>
                             </div>
                         </div>
                     </div>

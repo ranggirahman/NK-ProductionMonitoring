@@ -1,10 +1,5 @@
 <!-- Css (private use only) -->
 <link rel="stylesheet" type="text/css" href="<?=base_url();?>assets/datatables/dataTables.bootstrap4.min.css">
-<style type="text/css">
-    table.dataTable thead th {
-        border-top: none;
-    }
-</style>
 
 <!-- Js (private use only) -->
 <script src="<?=base_url();?>assets/chartjs/chart.js"></script>
@@ -109,14 +104,14 @@
                     </div>
                 </div>
                 <div class="card-body px-1 py-0 px-lg-3">
-                    <table id="example" class="display table" cellspacing="0" width="100%">
+                    <table id="tProductionL" class="display table" cellspacing="0" width="100%">
                         <thead>
                             <tr>
-                                <th>No</th>
-                                <th>Location</th>
-                                <th>Production</th>
-                                <th class="d-none d-sm-block">Last Update</th>
-                                <th><i class="material-icons" style="font-size: 20px;">build</i></th>
+                                <th style="border-top: none;">No</th>
+                                <th style="border-top: none;">Location</th>
+                                <th style="border-top: none;">Production</th>
+                                <th style="border-top: none;" class="d-none d-sm-block">Last Update</th>
+                                <th style="border-top: none;"><i class="material-icons" style="font-size: 20px;">build</i></th>
                             </tr>
                         </thead>
                  
@@ -126,35 +121,35 @@
                                 <td>Region 1</td>
                                 <td><span class="text-muted">100000</span>/120000</td>
                                 <td class="d-none d-sm-block">20 Oct 2020</td>
-                                <td><i class="material-icons text-muted cur-default" title="Out-date">watch_later</i></td>
+                                <td><i class="material-icons text-muted cur-noselect" data-toggle="tooltip" data-placement="top" title="Out-date">watch_later</i></td>
                             </tr>
                             <tr>
                                 <td>2</td>
                                 <td>Region 2</td>
                                 <td><span class="text-muted">150000</span>/195000</td>
                                 <td class="d-none d-sm-block">21 Oct 2020</td>
-                                <td><i class="material-icons text-success cur-default" title="Good">check_circle</i></td>
+                                <td><i class="material-icons text-success cur-noselect" data-toggle="tooltip" data-placement="top" title="Good">check_circle</i></td>
                             </tr>
                             <tr>
                                 <td>3</td>
                                 <td>Region 3</td>
                                 <td>200000/200000</td>
                                 <td class="d-none d-sm-block">22 Oct 2020</td>
-                                <td><i class="material-icons text-success cur-default" title="Good">check_circle</i></td>
+                                <td><i class="material-icons text-success cur-noselect" data-toggle="tooltip" data-placement="top" title="Good">check_circle</i></td>
                             </tr>
                             <tr>
                                 <td>4</td>
                                 <td>Region 4</td>
                                 <td><span class="text-muted">300000</span>/320000</td>
                                 <td class="d-none d-sm-block">21 Oct 2020</td>
-                                <td><i class="material-icons text-danger cur-default" title="1 Issue">warning</i></td>
+                                <td><i class="material-icons text-danger cur-noselect" data-toggle="tooltip" data-placement="top" title="Have Issue">warning</i></td>
                             </tr>
                             <tr>
                                 <td>5</td>
                                 <td>Region 5</td>
                                 <td><span class="text-muted">300000</span>/340000</td>
                                 <td class="d-none d-sm-block">22 Oct 2020</td>
-                                <td><i class="material-icons text-success cur-default" title="Good">check_circle</i></td>
+                                <td><i class="material-icons text-success cur-noselect" data-toggle="tooltip" data-placement="top" title="Good">check_circle</i></td>
                             </tr>
                         </tbody>
                     </table>
@@ -373,7 +368,7 @@
     // Chartjs performance
     var dRegion1 = {
         label: "Region 1",
-        data: [60000, 100000, 100000, 100000, 100000, 100000, 100000],
+        data: [95, 100, 100, 100, 100, 100, 100],
         lineTension: 0,
         fill: 'false',
         borderColor: 'rgba(255, 99, 132, 1)',
@@ -382,7 +377,7 @@
 
     var dRegion2 = {
         label: "Region 2",
-        data: [120000, 120000, 150000, 150000, 150000, 150000, 150000],
+        data: [98, 98, 96, 96, 96, 96, 96],
         lineTension: 0,
         fill: 'false',
         borderColor: 'rgba(54, 162, 235, 1)',
@@ -391,25 +386,25 @@
 
     var dRegion3 = {
         label: "Region 3",
-        data: [140000, 140000, 140000, 200000, 200000, 200000, 200000],
+        data: [98, 98, 98, 100, 100, 100, 100],
+        lineTension: 0,
+        fill: 'false',
+        borderColor: 'rgba(255, 206, 86, 1)',
+        backgroundColor: 'rgba(255, 206, 86, 1)'
+    };
+
+    var dRegion4 = {
+        label: "Region 4",
+        data: [85, 80, 80, 80, 80, 80, 80],
         lineTension: 0,
         fill: 'false',
         borderColor: 'rgba(75, 192, 192, 1)',
         backgroundColor: 'rgba(75, 192, 192, 1)'
     };
 
-    var dRegion4 = {
-        label: "Region 4",
-        data: [280000, 300000, 300000, 300000, 300000, 300000, 300000],
-        lineTension: 0,
-        fill: 'false',
-        borderColor: 'rgba(255, 99, 132, 1)',
-        backgroundColor: 'rgba(255, 99, 132, 1)'
-    };
-
     var dRegion5 = {
         label: "Region 5",
-        data: [200000, 200000, 200000, 300000, 300000, 300000, 300000],
+        data: [95, 95, 95, 100, 100, 100, 100],
         lineTension: 0,
         fill: 'false',
         borderColor: 'rgba(153, 102, 255, 1)',
@@ -441,9 +436,9 @@
         }
     });
 
-    // Datatables
+    // Datatables production log
     $(document).ready(function() {
-        var table = $('#example').DataTable({ 
+        var table = $('#tProductionL').DataTable({ 
             searching: false, 
             paging: false, 
             info: false,

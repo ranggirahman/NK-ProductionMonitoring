@@ -62,7 +62,7 @@
                         <div class="small text-dark">25 Oct 2020</div>
                     </div>
                     <div class="my-auto">
-                        <select class="form-control border-0" id="">
+                        <select class="form-control form-control-sm border-0" id="">
                           <option>Today</option>
                           <option>Week</option>
                           <option>Month</option>
@@ -83,7 +83,7 @@
                         <div class="small text-dark">19 - 25 Oct 2020</div>
                     </div>
                     <div class="my-auto">
-                        <select class="form-control border-0" id="">
+                        <select class="form-control form-control-sm border-0" id="">
                           <option>Week</option>
                           <option>Month</option>
                           <option>Year</option>

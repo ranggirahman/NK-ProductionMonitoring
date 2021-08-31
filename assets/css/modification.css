@@ -39,6 +39,11 @@ a {
 	user-select: none;
 }
 
+/* shadow on scroll */
+.shadow-scroll-active {
+     box-shadow: 0 1px 2px 0 rgba(0,0,0,0.1);   
+}
+
 /* nindya color */
 .active-nk {
 	color: #E85D25 !important;

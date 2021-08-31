@@ -61,23 +61,23 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                             </div>
                             <div class="card-body bg-transparent p-2">
                                 <div class="card mb-2">
-                                    <div class="card-body text-muted p-2">
+                                    <div class="card-body text-nk p-2">
                                         <div class="cur-pointer d-flex" data-toggle="modal" data-target="#mProductionT">
                                             <div class="my-auto mr-2" ><i class="material-icons" style="opacity: 0.6;">post_add</i></div>
                                             <div class="my-auto">
                                                 <div style="font-size: 14px;">Production Target</div>
-                                                <div class="small text-muted" style="font-size: 10px;">On progress until 23 Dec 2020</div>
+                                                <div class="small text-dark font-weight-bold" style="font-size: 10px;">On progress until 23 Dec 2020</div>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
                                 <div class="card">
-                                    <div class="card-body text-muted p-2">
+                                    <div class="card-body text-nk p-2">
                                         <div class="cur-pointer d-flex" data-toggle="modal" data-target="#mDailyR">
                                             <div class="my-auto mr-2" ><i class="material-icons" style="opacity: 0.6; font-size: 22px;">add_task</i></div>
                                             <div class="my-auto">
                                                 <div style="font-size: 14px;">Daily Report</div>
-                                                <div class="small" style="font-size: 10px;">Your report will outdated in 2 days</div>
+                                                <div class="small text-dark font-weight-bold" style="font-size: 10px;">Your report will outdated in 2 days</div>
                                             </div>
                                         </div>
                                     </div>
@@ -93,22 +93,22 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                     </button>
                     <div class="dropdown-menu dropdown-menu-right border-0 py-0" style="margin-top: -1px;">
                         <div class="card shadow-sm" style="width: 280px; border-radius: 4px 0px 4px 4px !important">
-                            <div class="card-header bg-white border-0 text-muted d-flex justify-content-between px-3 pt-2 pb-0">
+                            <div class="card-header shadow-scroll-header bg-white border-0 text-muted d-flex justify-content-between px-3 pt-2 pb-1">
                                 <div class="my-auto font-weight-bold" style="font-size: 14px;">Notification</div>
                                 <div class="cur-pointer"><i class="material-icons">clear_all</i></div>
                             </div>
-                            <div class="card-body bg-transparent p-2">
+                            <div class="card-body shadow-scroll-container bg-transparent px-2 pt-0 pb-2" style="height: 300px; overflow-y: auto;">
                                 <a href="" class="border rounded text-dark d-flex p-2 mb-2">
                                     <div class="mr-2 my-auto" style="position: relative;"><i class="material-icons text-muted">assignment_late</i><span class="text-danger" style="font-size: 40px; position: absolute; top: -30px; right: -4px; -webkit-text-stroke: 2px white;">•</span></div>
                                     <div>
-                                        <div class="font-weight-bold" style="font-size: 13px;">Report Region 4 need action</div>
+                                        <div style="font-size: 13px;">Report Region 4 need action</div>
                                         <div class="text-muted" style="font-size: 10px;">20h ago</div>
                                     </div>
                                 </a>
                                 <a href="" class="border rounded text-dark d-flex p-2 mb-2">
                                     <div class="mr-2 my-auto" style="position: relative;"><i class="material-icons text-muted">assignment_returned</i><span class="text-danger" style="font-size: 40px; position: absolute; top: -30px; right: -4px; -webkit-text-stroke: 2px white;">•</span></div>
                                     <div>
-                                        <div class="font-weight-bold" style="font-size: 13px;">Report Region 1 Returned</div>
+                                        <div style="font-size: 13px;">Report Region 1 Returned</div>
                                         <div class="text-muted" style="font-size: 10px;">1d ago</div>
                                     </div>
                                 </a>
@@ -126,10 +126,24 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                                         <div class="text-muted" style="font-size: 10px;">30d ago</div>
                                     </div>
                                 </a>
-                                <a href="" class="border rounded text-muted d-flex p-2">
+                                <a href="" class="border rounded text-muted d-flex p-2 mb-2">
                                     <div class="mr-2 my-auto"><i class="material-icons text-muted" style="opacity: 0.6;">assignment_turned_in</i></div>
                                     <div>
                                         <div style="font-size: 13px;">Production Region 2 Approved</div>
+                                        <div class="text-muted" style="font-size: 10px;">1y ago</div>
+                                    </div>
+                                </a>
+                                <a href="" class="border rounded text-muted d-flex p-2 mb-2">
+                                    <div class="mr-2 my-auto"><i class="material-icons text-muted" style="opacity: 0.6;">assignment_turned_in</i></div>
+                                    <div>
+                                        <div style="font-size: 13px;">Production Region 5 Approved</div>
+                                        <div class="text-muted" style="font-size: 10px;">1y ago</div>
+                                    </div>
+                                </a>
+                                <a href="" class="border rounded text-muted d-flex p-2">
+                                    <div class="mr-2 my-auto"><i class="material-icons text-muted" style="opacity: 0.6;">assignment_turned_in</i></div>
+                                    <div>
+                                        <div style="font-size: 13px;">Production Region 4 Approved</div>
                                         <div class="text-muted" style="font-size: 10px;">1y ago</div>
                                     </div>
                                 </a>
@@ -151,7 +165,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                             </div>
                             <div class="card-body bg-transparent p-2">
                                 <div class="card mb-2">
-                                    <div class="card-body text-muted p-2">
+                                    <div class="card-body text-nk p-2">
                                         <div class="cur-pointer d-flex" data-toggle="modal" data-target="#mHelp">
                                             <div class="my-auto mr-2" ><i class="material-icons" style="opacity: 0.6;">help</i></div>
                                             <div class="my-auto">
@@ -161,7 +175,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                                     </div>
                                 </div>
                                 <div class="card">
-                                    <div class="card-body text-muted p-2">
+                                    <div class="card-body text-nk p-2">
                                         <div class="cur-pointer d-flex" data-toggle="modal" data-target="#mSignO">
                                             <div class="my-auto mr-2" ><i class="material-icons" style="opacity: 0.6; font-size: 22px;">exit_to_app</i></div>
                                             <div class="my-auto">

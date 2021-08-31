@@ -221,13 +221,12 @@
 							<div class="form-group">
 							    <label class="small" for="">Attachment</label>
 							    <div class="custom-file">
-								  <input type="file" class="custom-file-input" id="">
-								  <label class="custom-file-label" for="">Choose file</label>
+								  <input type="file" class="custom-file-input form-control-sm" id="">
+								  <label class="custom-file-label col-form-label-sm" for="">Choose file</label>
 								</div>
 							</div>
-				  		</div>
-				  		<div class="card-footer bg-white py-2">
-				  			<div class="text-right"><button class="btn btn-sm btn-primary" data-dismiss="modal">Submit</button></div>
+							<hr>
+				  			<div class="text-right mb-2"><button class="btn btn-sm btn-primary" data-dismiss="modal">Submit</button></div>
 				  		</div>
 				  	</div>
 			  	</div>
@@ -246,7 +245,7 @@
   			</div>
 			<div class="modal-footer justify-content-between d-flex py-2">
 				<button class="btn btn-sm btn-primary" data-dismiss="modal">Cancel</button>
-				<a href="<?=base_url();?>login" class="btn btn-sm btn-outline-danger"><i class="material-icons mr-2" style="font-size: 18px;">exit_to_app</i>Sign Out</a>
+				<a href="<?=base_url();?>login" class="btn btn-sm btn-outline-danger">Sign Out</a>
 			</div>
     	</div>
   	</div>
@@ -263,4 +262,15 @@
 	$(function () {
 	  $('[data-toggle="tooltip"]').tooltip()
 	})
+
+	// shadow on scroll
+	$(".shadow-scroll-container").scroll(function() {     
+	    var scroll = $(".shadow-scroll-container").scrollTop();
+	    if (scroll > 0) {
+	        $(".shadow-scroll-header").addClass("shadow-scroll-active");
+	    }
+	    else {
+	        $(".shadow-scroll-header").removeClass("shadow-scroll-active");
+	    }
+	});
 </script>

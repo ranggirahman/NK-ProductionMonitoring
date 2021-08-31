@@ -8,7 +8,7 @@
 
 <div class="container-fluid mt-5 pt-4">
     <div class="row">
-        <div class="col-12 col-lg-7">
+        <div class="col-12 col-lg-6">
             <div class="card shadow-sm mb-3">
                 <div class="card-header justify-content-between d-flex bg-white py-2">
                     <div class="font-weight-light my-auto">
@@ -19,35 +19,35 @@
                     <div class="justify-content-between d-flex p-3 px-lg-5" style="overflow-y: auto;">
                         <div class="pr-4">
                             <div style="position: relative;" class="">
-                                <canvas id="cProgress1" width="100" height="100"></canvas>
+                                <canvas id="cProgress1" width="70rem" height="70rem"></canvas>
                                 <div class="font-weight-light h5" style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%);">83<span class="text-muted" style="opacity: 0.8; font-size: 0.7rem">%</span></div>
                             </div>
                             <div class="small text-center text-muted mt-2">Region 1</div>
                         </div>
                         <div class="pr-4">
                             <div style="position: relative;" class="">
-                                <canvas id="cProgress2" width="100" height="100"></canvas>
+                                <canvas id="cProgress2" width="70rem" height="70rem"></canvas>
                                 <div class="font-weight-light h5" style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%);">77<span class="text-muted" style="opacity: 0.8; font-size: 0.7rem">%</span></div>
                             </div>
                             <div class="small text-center text-muted mt-2">Region 2</div>
                         </div>
                         <div class="pr-4">
                             <div style="position: relative;" class="">
-                                <canvas id="cProgress3" width="100" height="100"></canvas>
+                                <canvas id="cProgress3" width="70rem" height="70rem"></canvas>
                                 <div class="font-weight-light h5" style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%);">100<span class="text-muted" style="opacity: 0.8; font-size: 0.7rem">%</span></div>
                             </div>
                             <div class="small text-center text-muted mt-2">Region 3</div>
                         </div>
                         <div class="pr-4">
                             <div style="position: relative;" class="">
-                                <canvas id="cProgress4" width="100" height="100"></canvas>
+                                <canvas id="cProgress4" width="70rem" height="70rem"></canvas>
                                 <div class="font-weight-light h5" style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%);">93<span class="text-muted" style="opacity: 0.8; font-size: 0.7rem">%</span></div>
                             </div>
                             <div class="small text-center text-muted mt-2">Region 4</div>
                         </div>
                         <div>
                             <div style="position: relative;" class="">
-                                <canvas id="cProgress5" width="100" height="100"></canvas>
+                                <canvas id="cProgress5" width="70rem" height="70rem"></canvas>
                                 <div class="font-weight-light h5" style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%);">88<span class="text-muted" style="opacity: 0.8; font-size: 0.7rem">%</span></div>
                             </div>
                             <div class="small text-center text-muted mt-2">Region 5</div>
@@ -75,7 +75,7 @@
                 </div>
             </div>
         </div>
-        <div class="col-12 col-lg-5 pl-lg-0">
+        <div class="col-12 col-lg-6 pl-lg-0">
             <div class="card shadow-sm mb-3">
                 <div class="card-header justify-content-between d-flex bg-white py-2">
                     <div class="font-weight-light my-auto">
@@ -104,7 +104,7 @@
                     </div>
                 </div>
                 <div class="card-body px-1 py-0 px-lg-3">
-                    <table id="tProductionL" class="display table" cellspacing="0" width="100%">
+                    <table id="tProductionL" class="display table table-sm table-responsive-sm text-nowrap" cellspacing="0" width="100%">
                         <thead>
                             <tr>
                                 <th>No</th>
@@ -156,19 +156,19 @@
                 </div>
                 <div class="card-footer bg-white">
                     <div class="row">
-                        <div class="col">
+                        <div class="col-6 col-lg-3 mb-3 mb-lg-0">
                             <div class="small text-truncate text-black-50">Avg. Performance</div>
                             <div class="text-success" style="font-size: 1.2rem;"><i class="material-icons mr-2">check_circle</i>80%</div>
                         </div>
-                        <div class="col">
+                        <div class="col-6 col-lg-3 mb-3 mb-lg-0">
                             <div class="small text-truncate text-black-50">Avg. Progress</div>
                             <div class="text-success" style="font-size: 1.2rem;"><i class="material-icons mr-2">check_circle</i>88%</div>
                         </div>
-                        <div class="col mb-3 mb-lg-0">
+                        <div class="col-6 col-lg-3">
                             <div class="small text-black-50">Issue</div>
                             <div class="text-danger" style="font-size: 1.2rem;"><i class="material-icons mr-2">warning</i>1</div>
                         </div>
-                        <div class="col">
+                        <div class="col-6 col-lg-3">
                             <div class="small text-black-50">Out-date</div>
                             <div class="text-muted" style="font-size: 1.2rem;"><i class="material-icons mr-2">watch_later</i>1</div>
                         </div>

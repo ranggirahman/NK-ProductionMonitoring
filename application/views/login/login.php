@@ -70,7 +70,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 	                    <div class="text-muted small justify-content-between d-flex">
 	                        <div>&copy; <?php echo date("Y"); ?> Nindya Karya</div>
 	                        <div>
-	                            V 1.0
+	                            Ver 0.8
                         </div>
                     </div>
                 </div>

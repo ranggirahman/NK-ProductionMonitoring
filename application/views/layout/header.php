@@ -35,7 +35,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 
 	<!-- Js (Global) -->
     <script src="<?=base_url();?>assets/jquery/jquery.js"></script>
-    <script src="<?=base_url();?>assets/bootstrap/js/popper.js"></script>
+    <script src="<?=base_url();?>assets/popper/popper.js"></script>
     <script src="<?=base_url();?>assets/bootstrap/js/bootstrap.js"></script>
 
 </head>
@@ -165,6 +165,26 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                             </div>
                             <div class="card-body bg-transparent p-2">
                                 <div class="card mb-2">
+                                    <div class="card-body p-2">
+                                        <a href="<?=base_url();?>settings" class="d-flex text-nk">
+                                            <div class="my-auto mr-2" ><i class="material-icons" style="opacity: 0.6; font-size: 22px;">settings</i></div>
+                                            <div class="my-auto">
+                                                <div style="font-size: 14px;">Settings</div>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="card mb-2">
+                                    <div class="card-body p-2">
+                                        <a href="<?=base_url();?>developer" class="d-flex text-nk">
+                                            <div class="my-auto mr-2" ><i class="material-icons" style="opacity: 0.6; font-size: 22px;">code</i></div>
+                                            <div class="my-auto">
+                                                <div style="font-size: 14px;">Developer Tools</div>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="card mb-2">
                                     <div class="card-body text-nk p-2">
                                         <div class="cur-pointer d-flex" data-toggle="modal" data-target="#mHelp">
                                             <div class="my-auto mr-2" ><i class="material-icons" style="opacity: 0.6;">help</i></div>
@@ -174,6 +194,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                                         </div>
                                     </div>
                                 </div>
+                                <hr class="my-2">
                                 <div class="card">
                                     <div class="card-body text-nk p-2">
                                         <div class="cur-pointer d-flex" data-toggle="modal" data-target="#mSignO">

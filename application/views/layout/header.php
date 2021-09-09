@@ -153,7 +153,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                 </div>
                 <div class="btn-group">
                     <button class="btn btn-white btn-header rounded d-flex p-2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                        <img id="my_photo" class="rounded-circle border" style="object-fit: cover;height: 30px;width: 30px;" src="<?= base_url(); ?>assets/img/profile.jpg"><div class="font-weight-light text-muted my-auto"></div>
+                        <img id="my_photo" class="rounded-circle border" style="object-fit: cover;height: 30px;width: 30px;" src="<?= base_url(); ?>assets/img/profile.jpg"></div>
                     </button>
                     <div class="dropdown-menu dropdown-menu-right border-0 py-0" style="margin-top: -2px;">
                         <div class="card shadow-sm" style="width: 220px; border-radius: 4px 0px 4px 4px !important">
